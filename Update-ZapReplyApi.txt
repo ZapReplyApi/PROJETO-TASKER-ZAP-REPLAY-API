@@ -1,0 +1,5 @@
+        <p class="changelog-text">
+            <b>*Versão* 2.1.0 - Melhoria de Funcionalidades</b><br>
+            Introduzido *streaming de dados* em tempo real para melhor desempenho da API. Otimizada a manipulação de *requisições*, reduzindo a latência em 20%. Correção de pequenos bugs no módulo de *autenticação*.<br>
+            Desenvolvedor: Equipe ZAP - 01 de Julho de 2025<br><br>
+        </p>
