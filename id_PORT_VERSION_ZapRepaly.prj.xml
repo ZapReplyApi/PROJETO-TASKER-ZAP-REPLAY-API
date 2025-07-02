@@ -2,7 +2,7 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1750771902911</cdate>
 		<name>id:PORT-VERSION-ZapRepaly</name>
-		<tids>278,2544,2579,2584,335,2569,2580,2589,2588,2548,2581,2553,2573,2571,2578,2567,2574,2559,2583,2557,2551,2564,2568,2572,2560,2563,2582,2586,2577,2575,2585,2570,2549,2554,2558,2562,2552,2576,2587,2546,2556,2545,2565,2566,2561,2543,2550</tids>
+		<tids>278,335,2577,2582,2543,2579,2563,2565,2589,2556,2584,2571,2588,2560,2587,2550,2573,2548,2576,2572,2561,2552,2549,2569,2559,2580,2564,2568,2567,2551,2566,2574,2586,2558,2575,2546,2554,2562,2557,2570,2578,2553,2544,2581,2583,2585,2545</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/port-icon-port.png</fle>
@@ -86,7 +86,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -215,7 +215,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -477,7 +477,7 @@ false</label>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -572,7 +572,7 @@ teste</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -724,7 +724,7 @@ teste</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -860,7 +860,7 @@ teste</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -989,7 +989,7 @@ teste</Str>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1159,7 +1159,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1312,7 +1312,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1482,7 +1482,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1650,7 +1650,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1809,7 +1809,7 @@ Esta mensagem foi repondida como citacao automaticamente por meio do aplicativo 
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -1953,7 +1953,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2100,7 +2100,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2296,7 +2296,7 @@ Esta mensagem foi repondida como citacao automaticamente por meio do aplicativo 
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2356,7 +2356,7 @@ Esta mensagem foi repondida como citacao automaticamente por meio do aplicativo 
 	</Task>
 	<Task sr="task2560">
 		<cdate>1750803907905</cdate>
-		<edate>1751378873526</edate>
+		<edate>1751483086949</edate>
 		<id>2560</id>
 		<nme>018-id:PORT VERSION-ZRA- Simular Presenca</nme>
 		<pri>100</pri>
@@ -2427,7 +2427,7 @@ gravando, valor ( recording )</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2678,7 +2678,7 @@ false</label>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2787,7 +2787,7 @@ false para retornar menor  resolução</label>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -2950,7 +2950,7 @@ gravando, valor ( recording )</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3109,7 +3109,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3328,7 +3328,7 @@ false</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3428,7 +3428,7 @@ as informações que vende essa variável dos grupos elas estão limpas com apen
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3648,7 +3648,7 @@ true ou false</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3822,7 +3822,7 @@ true ou false</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -3955,7 +3955,7 @@ lista de contatos total
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -4165,7 +4165,7 @@ false</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -4329,7 +4329,7 @@ true ou false</label>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -4554,7 +4554,7 @@ false</label>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -4702,7 +4702,7 @@ false</label>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -4831,7 +4831,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5023,7 +5023,7 @@ FC19E64530E1FBBC9DEEF18DEF62A77A</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5189,7 +5189,7 @@ true ou false</label>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5348,7 +5348,7 @@ true ou false</label>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5510,7 +5510,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5737,7 +5737,7 @@ false</label>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -5932,7 +5932,7 @@ false</label>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -6063,7 +6063,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -6175,7 +6175,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -6382,7 +6382,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -6624,7 +6624,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -6823,7 +6823,7 @@ Esta mensagem foi editada automaticamente por meio do aplicativo Tasker.</Str>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -7060,7 +7060,7 @@ exe:. /storage/emulated/0/Download/áudio.mp3</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -7223,7 +7223,7 @@ O rótulo do botão que foi tocado&lt;/_array_net.dinglisch.android.tasker.RELEV
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -7380,7 +7380,7 @@ exe:. /storage/emulated/0/Download/áudio.mp3</label>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -7503,7 +7503,7 @@ exe:. /storage/emulated/0/Download/áudio.mp3</label>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+10</var>
 			</Int>
@@ -7598,9 +7598,9 @@ exe:. /storage/emulated/0/Download/áudio.mp3</label>
 	</Task>
 	<Task sr="task278">
 		<cdate>1750801605699</cdate>
-		<edate>1751378662971</edate>
+		<edate>1751483055743</edate>
 		<id>278</id>
-		<nme>008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</nme>
+		<nme>010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</nme>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
@@ -7727,7 +7727,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act104" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act105" ve="7">
 			<code>43</code>
@@ -7873,7 +7873,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act113" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act114" ve="7">
 			<code>43</code>
@@ -7985,7 +7985,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act122" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act123" ve="7">
 			<code>43</code>
@@ -8066,7 +8066,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act130" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act131" ve="7">
 			<code>43</code>
@@ -8199,12 +8199,12 @@ setLocal("number_valid", number_valid);</Str>
 		<Action sr="act139" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act140" ve="7">
 			<code>126</code>
@@ -8249,7 +8249,7 @@ setLocal("number_valid", number_valid);</Str>
 		<Action sr="act144" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act145" ve="7">
 			<code>43</code>
@@ -8385,7 +8385,7 @@ setLocal("number_valid", number_valid);</Str>
 		<Action sr="act153" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act154" ve="7">
 			<code>126</code>
@@ -8430,7 +8430,7 @@ setLocal("number_valid", number_valid);</Str>
 		<Action sr="act158" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act159" ve="7">
 			<code>43</code>
@@ -8538,7 +8538,7 @@ if (variaveisAusentes.length &gt; 0) {
 		<Action sr="act167" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act168" ve="7">
 			<code>43</code>
@@ -8641,7 +8641,7 @@ if (variaveisAusentes.length &gt; 0) {
 		<Action sr="act176" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act177" ve="7">
 			<code>43</code>
@@ -8729,7 +8729,7 @@ if (variaveisAusentes.length &gt; 0) {
 		<Action sr="act185" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act186" ve="7">
 			<code>43</code>
@@ -8851,7 +8851,7 @@ if (houveRepeticao) {
 		<Action sr="act194" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act195" ve="7">
 			<code>38</code>
@@ -8944,7 +8944,7 @@ if (mensagensStatus.length &gt; 0) {
 		<Action sr="act199" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>129</code>
@@ -9143,7 +9143,7 @@ if (houveRepeticao) {
 		<Action sr="act208" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act209" ve="7">
 			<code>38</code>
@@ -9246,7 +9246,7 @@ if (mensagensStatus.length &gt; 0) {
 		<Action sr="act213" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act214" ve="7">
 			<code>43</code>
@@ -9365,7 +9365,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act222" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act223" ve="7">
 			<code>43</code>
@@ -9446,7 +9446,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act23" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act230" ve="7">
 			<code>548</code>
@@ -9470,7 +9470,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act231" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act232" ve="7">
 			<code>43</code>
@@ -9571,7 +9571,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act240" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act241" ve="7">
 			<code>43</code>
@@ -9669,7 +9669,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act249" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>126</code>
@@ -9773,7 +9773,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act258" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act259" ve="7">
 			<code>43</code>
@@ -9872,7 +9872,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act267" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act268" ve="7">
 			<code>43</code>
@@ -9973,7 +9973,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act276" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act277" ve="7">
 			<code>43</code>
@@ -10082,7 +10082,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act285" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act286" ve="7">
 			<code>43</code>
@@ -10222,7 +10222,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act294" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act295" ve="7">
 			<code>43</code>
@@ -10338,7 +10338,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act303" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act304" ve="7">
 			<code>43</code>
@@ -10456,7 +10456,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act312" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act313" ve="7">
 			<code>43</code>
@@ -10532,7 +10532,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act32" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act320" ve="7">
 			<code>548</code>
@@ -10556,7 +10556,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act321" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act322" ve="7">
 			<code>38</code>
@@ -10625,7 +10625,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act326" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act327" ve="7">
 			<code>43</code>
@@ -10723,7 +10723,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act335" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act336" ve="7">
 			<code>38</code>
@@ -10800,7 +10800,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act340" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act341" ve="7">
 			<code>43</code>
@@ -10895,7 +10895,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act349" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act35" ve="7">
 			<code>38</code>
@@ -10967,7 +10967,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act354" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act355" ve="7">
 			<code>43</code>
@@ -11065,7 +11065,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act363" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act364" ve="7">
 			<code>38</code>
@@ -11134,7 +11134,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act368" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act369" ve="7">
 			<code>43</code>
@@ -11237,7 +11237,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act377" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act378" ve="7">
 			<code>43</code>
@@ -11373,7 +11373,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act386" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act387" ve="7">
 			<code>38</code>
@@ -11452,7 +11452,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act391" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act392" ve="7">
 			<code>43</code>
@@ -11585,7 +11585,7 @@ if (erros.length &gt; 0) {
 		<Action sr="act400" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act401" ve="7">
 			<code>38</code>
@@ -11654,7 +11654,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act405" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act406" ve="7">
 			<code>43</code>
@@ -11676,7 +11676,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act41" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act410" ve="7">
 			<code>37</code>
@@ -11748,7 +11748,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act414" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act415" ve="7">
 			<code>43</code>
@@ -11843,7 +11843,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act423" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act424" ve="7">
 			<code>43</code>
@@ -11943,7 +11943,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act432" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act433" ve="7">
 			<code>43</code>
@@ -12047,12 +12047,12 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act5" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act50" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act51" ve="7">
 			<code>43</code>
@@ -12152,7 +12152,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act59" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>43</code>
@@ -12258,7 +12258,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act68" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act69" ve="7">
 			<code>43</code>
@@ -12364,7 +12364,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act77" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act78" ve="7">
 			<code>43</code>
@@ -12465,7 +12465,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act86" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act87" ve="7">
 			<code>43</code>
@@ -12579,7 +12579,7 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act95" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act96" ve="7">
 			<code>43</code>
@@ -12601,9 +12601,9 @@ if (missingVariables.length &gt; 0) {
 	</Task>
 	<Task sr="task335">
 		<cdate>1750773941558</cdate>
-		<edate>1751354867983</edate>
+		<edate>1751483063228</edate>
 		<id>335</id>
-		<nme>009-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</nme>
+		<nme>011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</nme>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
@@ -12684,7 +12684,7 @@ if (missingVariables.length &gt; 0) {
 		</Action>
 		<Action sr="act106" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -12823,7 +12823,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act116" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13011,7 +13011,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act128" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13110,7 +13110,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act136" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13271,7 +13271,7 @@ setLocal('contacts_full', totalCount);</Str>
 		</Action>
 		<Action sr="act146" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13439,7 +13439,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act156" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13510,7 +13510,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13551,7 +13551,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act164" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13675,7 +13675,7 @@ setLocal("caption_escap", saida);</Str>
 		</Action>
 		<Action sr="act173" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13806,7 +13806,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act181" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -13946,7 +13946,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act190" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14034,7 +14034,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act199" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14167,7 +14167,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act208" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14355,7 +14355,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act219" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14468,7 +14468,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act228" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14640,7 +14640,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act238" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14746,7 +14746,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act246" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14817,7 +14817,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -14858,7 +14858,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act254" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15052,7 +15052,7 @@ setLocal("caption_escap", saida);</Str>
 		</Action>
 		<Action sr="act265" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15214,7 +15214,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act274" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15391,7 +15391,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act283" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15497,7 +15497,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act291" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15669,7 +15669,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act301" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15765,7 +15765,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act309" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15883,7 +15883,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act318" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -15982,7 +15982,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act326" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16101,7 +16101,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act335" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16228,7 +16228,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act344" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16327,7 +16327,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act35" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16360,7 +16360,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act353" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16510,7 +16510,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act362" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16626,7 +16626,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act371" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16762,7 +16762,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act381" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -16896,7 +16896,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act391" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17018,7 +17018,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act400" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17201,7 +17201,7 @@ Content-Type: application/json</Str>
 		</Action>
 		<Action sr="act43" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17308,7 +17308,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act51" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17473,7 +17473,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17503,7 +17503,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act62" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17628,7 +17628,7 @@ setLocal("caption_escap", saida);</Str>
 		</Action>
 		<Action sr="act71" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17785,7 +17785,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act80" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -17894,7 +17894,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act89" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
@@ -18049,7 +18049,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act98" ve="7">
 			<code>130</code>
-			<Str sr="arg0" ve="3">008-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1">
 				<var>%priority+30</var>
 			</Int>
