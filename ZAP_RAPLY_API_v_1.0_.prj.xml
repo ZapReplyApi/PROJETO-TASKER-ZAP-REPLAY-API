@@ -2,7 +2,8 @@
 	<dmetric>1080.0,2261.0</dmetric>
 	<Profile sr="prof177" ve="2">
 		<cdate>1749673934676</cdate>
-		<edate>1751568057470</edate>
+		<clp>true</clp>
+		<edate>1751568277770</edate>
 		<flags>8</flags>
 		<id>177</id>
 		<limit>true</limit>
@@ -30,7 +31,7 @@
 	<Profile sr="prof274" ve="2">
 		<cdate>1750425861718</cdate>
 		<clp>true</clp>
-		<edate>1751568046443</edate>
+		<edate>1751568269668</edate>
 		<flags>8</flags>
 		<id>274</id>
 		<limit>true</limit>
@@ -43,8 +44,7 @@
 	</Profile>
 	<Profile sr="prof639" ve="2">
 		<cdate>1751530430035</cdate>
-		<clp>true</clp>
-		<edate>1751568047145</edate>
+		<edate>1751568268771</edate>
 		<flags>8</flags>
 		<id>639</id>
 		<limit>true</limit>
@@ -58,7 +58,7 @@
 	<Profile sr="prof64" ve="2">
 		<cdate>1748043234117</cdate>
 		<clp>true</clp>
-		<edate>1751568046811</edate>
+		<edate>1751568269297</edate>
 		<flags>8</flags>
 		<id>64</id>
 		<limit>true</limit>
@@ -107,10 +107,10 @@ Valores Multipartes
 	<Project sr="proj0" ve="2">
 		<cdate>1748043215165</cdate>
 		<name>ZAP_RAPLY_API v(1.0)</name>
-		<pids>64,274,177,639</pids>
+		<pids>64,639,274,177</pids>
 		<psort>Alpha</psort>
-		<scenes>005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),005-ATUALIZACOES [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0)</scenes>
-		<tids>335,4080,278,269,276,5001,192,272,61,174,189,268,340,183,348,896,176,270,858,92,339</tids>
+		<scenes>005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),005-ATUALIZACOES [ zap-replay-api ] v(1.0)</scenes>
+		<tids>269,276,5001,61,4080,268,858,896,192,174,272,278,183,339,270,189,348,335,176,340,92</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
 		</Img>
@@ -1207,7 +1207,7 @@ Valores Multipartes
 	</Scene>
 	<Scene sr="scene005-ATUALIZACOES [ zap-replay-api ] v(1.0)">
 		<cdate>1751402967631</cdate>
-		<edate>1751567354065</edate>
+		<edate>1751568245961</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2400</heightPort>
 		<nme>005-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
@@ -14405,28 +14405,13 @@ setLocal("name", nome);</Str>
 		<id>348</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">Hi</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
+			<code>49</code>
+			<Str sr="arg0" ve="3">005-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
 	<Task sr="task4080">
 		<cdate>1751351658710</cdate>
-		<edate>1751567872839</edate>
+		<edate>1751568266935</edate>
 		<id>4080</id>
 		<nme>005-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -14799,7 +14784,7 @@ setLocal('is_different', is_different.toString());</Str>
 		<edate>1751567726405</edate>
 		<id>5001</id>
 		<nme>012-MENSAGENS-RECEBIDAS [ zap-replay-api ] v(1.0)</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
