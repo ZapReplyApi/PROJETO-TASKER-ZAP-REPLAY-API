@@ -2,8 +2,7 @@
 	<dmetric>1080.0,2261.0</dmetric>
 	<Profile sr="prof177" ve="2">
 		<cdate>1749673934676</cdate>
-		<clp>true</clp>
-		<edate>1751567699148</edate>
+		<edate>1751567911791</edate>
 		<flags>8</flags>
 		<id>177</id>
 		<limit>true</limit>
@@ -45,7 +44,7 @@
 	<Profile sr="prof639" ve="2">
 		<cdate>1751530430035</cdate>
 		<clp>true</clp>
-		<edate>1751567443902</edate>
+		<edate>1751567872839</edate>
 		<flags>8</flags>
 		<id>639</id>
 		<limit>true</limit>
@@ -58,6 +57,7 @@
 	</Profile>
 	<Profile sr="prof64" ve="2">
 		<cdate>1748043234117</cdate>
+		<clp>true</clp>
 		<edate>1751567726406</edate>
 		<flags>8</flags>
 		<id>64</id>
@@ -107,10 +107,10 @@ Valores Multipartes
 	<Project sr="proj0" ve="2">
 		<cdate>1748043215165</cdate>
 		<name>ZAP_RAPLY_API v(1.0)</name>
-		<pids>64,274,639,177</pids>
+		<pids>64,639,177,274</pids>
 		<psort>Alpha</psort>
-		<scenes>004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),005-ATUALIZACOES [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0)</scenes>
-		<tids>269,4080,896,268,189,339,192,5001,272,278,61,340,276,335,174,270,183,92,858,348,176</tids>
+		<scenes>003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),005-ATUALIZACOES [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0)</scenes>
+		<tids>335,278,4080,61,269,268,272,183,348,192,5001,340,189,174,276,896,92,176,270,339,858</tids>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
 		</Img>
@@ -1898,7 +1898,7 @@ Valores Multipartes
 		<edate>1751567699148</edate>
 		<id>183</id>
 		<nme>007-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</nme>
-		<pri>100</pri>
+		<pri>6</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -14441,7 +14441,7 @@ setLocal("name", nome);</Str>
 	</Task>
 	<Task sr="task4080">
 		<cdate>1751351658710</cdate>
-		<edate>1751567443902</edate>
+		<edate>1751567872839</edate>
 		<id>4080</id>
 		<nme>005-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
