@@ -2,4 +2,4 @@
             <b>*Melhoria de Funcionalidades*</b><br>
             Melhorias nas responsividades das cenas<br>
             01 de Julho de 2025<br>
-        </p>
+        </p
