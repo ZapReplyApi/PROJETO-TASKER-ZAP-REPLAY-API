@@ -2,7 +2,7 @@
 	<Project sr="proj0" ve="2">
 		<cdate>1750771902911</cdate>
 		<name>id:PORT-VERSION-ZapRepaly</name>
-		<tids>278,335,2577,2582,2543,2579,2563,2565,2589,2556,2584,2571,2588,2560,2587,2550,2573,2548,2576,2572,2561,2552,2549,2569,2559,2580,2564,2568,2567,2551,2566,2574,2586,2558,2575,2546,2554,2562,2557,2570,2578,2553,2544,2581,2583,2585,2545</tids>
+		<tids>278,2559,335,2558,2548,2545,2567,2561,2588,2584,2551,2570,2580,2589,2563,2581,2572,2582,2566,2579,2583,2546,2587,2568,2549,2553,2578,2586,2574,2550,2557,2571,2562,2577,2544,2565,2576,2569,2560,2543,2554,2552,2573,2564,2585,2575,2556</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/port-icon-port.png</fle>
@@ -7598,9 +7598,10 @@ exe:. /storage/emulated/0/Download/áudio.mp3</label>
 	</Task>
 	<Task sr="task278">
 		<cdate>1750801605699</cdate>
-		<edate>1751483055743</edate>
+		<edate>1751556037349</edate>
 		<id>278</id>
 		<nme>010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</nme>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
@@ -12598,12 +12599,16 @@ if (missingVariables.length &gt; 0) {
 		<Action sr="act99" ve="7">
 			<code>38</code>
 		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
+		</Img>
 	</Task>
 	<Task sr="task335">
 		<cdate>1750773941558</cdate>
-		<edate>1751483063228</edate>
+		<edate>1751556973870</edate>
 		<id>335</id>
 		<nme>011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</nme>
+		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
@@ -18096,5 +18101,8 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
+		</Img>
 	</Task>
 </TaskerData>
