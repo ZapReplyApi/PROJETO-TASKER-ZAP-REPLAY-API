@@ -1,9 +1,9 @@
 <TaskerData sr="" dvi="1" tv="6.6.0-beta">
-	<dmetric>1080.0,2261.0</dmetric>
+	<dmetric>1080.0,2400.0</dmetric>
 	<Profile sr="prof891" ve="2">
 		<cdate>1751633730631</cdate>
 		<clp>true</clp>
-		<edate>1751641125467</edate>
+		<edate>1751660874178</edate>
 		<flags>8</flags>
 		<id>891</id>
 		<limit>true</limit>
@@ -31,7 +31,7 @@
 	<Profile sr="prof892" ve="2">
 		<cdate>1751633730632</cdate>
 		<clp>true</clp>
-		<edate>1751641101777</edate>
+		<edate>1751660836706</edate>
 		<flags>8</flags>
 		<id>892</id>
 		<limit>true</limit>
@@ -45,7 +45,7 @@
 	<Profile sr="prof894" ve="2">
 		<cdate>1751633730633</cdate>
 		<clp>true</clp>
-		<edate>1751641101241</edate>
+		<edate>1751660836077</edate>
 		<flags>8</flags>
 		<id>894</id>
 		<limit>true</limit>
@@ -59,7 +59,7 @@
 	<Profile sr="prof895" ve="2">
 		<cdate>1751633730635</cdate>
 		<clp>true</clp>
-		<edate>1751641101529</edate>
+		<edate>1751660836395</edate>
 		<flags>8</flags>
 		<id>895</id>
 		<limit>true</limit>
@@ -108,11 +108,11 @@ Valores Multipartes
 	<Project sr="proj0" ve="2">
 		<cdate>1748043215165</cdate>
 		<name>ZAP_RAPLY_API v(1.0)</name>
-		<pids>895,892,894,891</pids>
+		<pids>894,891,895,892</pids>
 		<psort>Alpha</psort>
-		<scenes>001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),006-ATUALIZACOES [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</scenes>
+		<scenes>006-ATUALIZACOES [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0)</scenes>
 		<ssort>Alpha</ssort>
-		<tids>874,889,861,887,855,876,865,885,858,882,877,866,886,890,875,881,878,884,888,872,883</tids>
+		<tids>884,865,882,874,887,889,878,866,875,861,858,890,886,883,885,876,872,855,881,877,888</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
@@ -147,7 +147,7 @@ Valores Multipartes
 	</Project>
 	<Scene sr="scene001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0)">
 		<cdate>1748109788723</cdate>
-		<edate>1751633794330</edate>
+		<edate>1751657956888</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2400</heightPort>
 		<nme>001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0)</nme>
@@ -1882,7 +1882,7 @@ Valores Multipartes
 	</Task>
 	<Task sr="task858">
 		<cdate>1751354730604</cdate>
-		<edate>1751641033961</edate>
+		<edate>1751660609949</edate>
 		<id>858</id>
 		<nme>012-MENSAGENS-RECEBIDAS [ zap-replay-api ] v(1.0)</nme>
 		<pri>6</pri>
@@ -2290,11 +2290,12 @@ setLocal('json_valid', is_valid.toString());</Str>
 	</Task>
 	<Task sr="task861">
 		<cdate>1749757392787</cdate>
-		<edate>1751605458921</edate>
+		<edate>1751660633671</edate>
 		<id>861</id>
 		<nme>008-( SISTEMA )-INSTALACOES-GERAIS [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
+		<stayawake>true</stayawake>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<coll>true</coll>
@@ -2322,15 +2323,25 @@ path_progresso</label>
 		</Action>
 		<Action sr="act100" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act101" ve="7">
 			<code>159</code>
-			<Str sr="arg0" ve="3">001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
 		<Action sr="act102" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act103" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act104" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var usersData = JSON.parse(users);
 
@@ -2343,11 +2354,11 @@ if (Array.isArray(usersData) &amp;&amp; usersData.length &gt; 0) {
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act103" ve="7">
+		<Action sr="act105" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
 		</Action>
-		<Action sr="act104" ve="7">
+		<Action sr="act106" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1" val="10"/>
@@ -2361,10 +2372,31 @@ if (Array.isArray(usersData) &amp;&amp; usersData.length &gt; 0) {
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act105" ve="7">
+		<Action sr="act107" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act109" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act106" ve="7">
+		<Action sr="act11" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%logs_progresso</Str>
+			<Str sr="arg1" ve="3">%logs_progresso</Str>
+			<Str sr="arg2" ve="3">
+</Str>
+		</Action>
+		<Action sr="act110" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -2375,31 +2407,24 @@ if (Array.isArray(usersData) &amp;&amp; usersData.length &gt; 0) {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act107" ve="7">
+		<Action sr="act111" ve="7">
 			<code>354</code>
 			<Str sr="arg0" ve="3">%ports</Str>
 			<Str sr="arg1" ve="3">%ports</Str>
 			<Str sr="arg2" ve="3">,</Str>
 		</Action>
-		<Action sr="act108" ve="7">
+		<Action sr="act112" ve="7">
 			<code>369</code>
 			<Str sr="arg0" ve="3">%ports</Str>
 			<Int sr="arg1" val="1"/>
 		</Action>
-		<Action sr="act109" ve="7">
+		<Action sr="act113" ve="7">
 			<code>39</code>
 			<Str sr="arg0" ve="3">%search</Str>
 			<Str sr="arg1" ve="3">%ports()</Str>
 			<Int sr="arg2" val="1"/>
 		</Action>
-		<Action sr="act11" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%logs_progresso</Str>
-			<Str sr="arg1" ve="3">%logs_progresso</Str>
-			<Str sr="arg2" ve="3">
-</Str>
-		</Action>
-		<Action sr="act110" ve="7">
+		<Action sr="act114" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -2433,13 +2458,13 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act111" ve="7">
+		<Action sr="act115" ve="7">
 			<code>303</code>
 			<Int sr="arg0" val="255"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act112" ve="7">
+		<Action sr="act116" ve="7">
 			<code>445</code>
 			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
 			<Int sr="arg1" val="0"/>
@@ -2447,7 +2472,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg3" val="4"/>
 			<Int sr="arg4" val="1"/>
 		</Action>
-		<Action sr="act113" ve="7">
+		<Action sr="act117" ve="7">
 			<code>547</code>
 			<label>adiciona * para não exibir os botões</label>
 			<Str sr="arg0" ve="3">%buttons</Str>
@@ -2458,7 +2483,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act114" ve="7">
+		<Action sr="act118" ve="7">
 			<code>547</code>
 			<label>margem da cena
 003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
@@ -2470,7 +2495,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act115" ve="7">
+		<Action sr="act119" ve="7">
 			<code>547</code>
 			<label>informação que irá ser exibido na cena
 003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
@@ -2481,36 +2506,6 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act116" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act117" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act118" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act119" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>523</code>
@@ -2538,9 +2533,39 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			</ConditionList>
 		</Action>
 		<Action sr="act120" ve="7">
-			<code>40</code>
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 		<Action sr="act121" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act122" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act123" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act124" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act125" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act13" ve="7">
@@ -2667,6 +2692,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act24" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%destroy_scene</lhs>
@@ -2697,6 +2723,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%logs_progresso(&lt;)</lhs>
@@ -2750,6 +2777,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 		</Action>
 		<Action sr="act34" ve="7">
 			<code>37</code>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%destroy_scene</lhs>
@@ -3319,7 +3347,7 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 		</Action>
 		<Action sr="act86" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%http_response_code</lhs>
@@ -3335,6 +3363,32 @@ WAITING-FOR-SETTINGS v(1.0)</label>
 			<code>245</code>
 		</Action>
 		<Action sr="act89" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>&lt;b&gt;&lt;font color=cyan&gt;
+path_progresso</label>
+			<Str sr="arg0" ve="3">%path_progresso</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/progress.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act91" ve="7">
 			<code>129</code>
 			<label>identifica o usuário que irá ser conectar e adicionar dentro da variável users</label>
 			<Str sr="arg0" ve="3">var tempUsers = local('users');
@@ -3362,39 +3416,27 @@ setLocal('error', '');</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<label>&lt;b&gt;&lt;font color=cyan&gt;
-path_progresso</label>
-			<Str sr="arg0" ve="3">%path_progresso</Str>
-			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/progress.txt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act90" ve="7">
+		<Action sr="act92" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
 			<Str sr="arg1" ve="3">%users</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act91" ve="7">
+		<Action sr="act93" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
-		<Action sr="act92" ve="7">
+		<Action sr="act94" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">usuário conectado</Str>
 		</Action>
-		<Action sr="act93" ve="7">
+		<Action sr="act95" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act94" ve="7">
+		<Action sr="act96" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -3407,33 +3449,23 @@ path_progresso</label>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act95" ve="7">
+		<Action sr="act97" ve="7">
 			<code>300</code>
 			<label>usuário conectado</label>
 		</Action>
-		<Action sr="act96" ve="7">
+		<Action sr="act98" ve="7">
 			<code>303</code>
 			<Int sr="arg0" val="255"/>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act97" ve="7">
+		<Action sr="act99" ve="7">
 			<code>445</code>
 			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="4"/>
 			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act98" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
@@ -3506,7 +3538,7 @@ path_progresso</label>
 	</Task>
 	<Task sr="task874">
 		<cdate>1750773941558</cdate>
-		<edate>1751575483825</edate>
+		<edate>1751660742107</edate>
 		<id>874</id>
 		<nme>011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</nme>
 		<rty>2</rty>
@@ -9008,7 +9040,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task875">
 		<cdate>1751351658710</cdate>
-		<edate>1751640028541</edate>
+		<edate>1751660815786</edate>
 		<id>875</id>
 		<nme>005-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -9337,6 +9369,20 @@ setLocal('is_different', is_different.toString());</Str>
 			</ConditionList>
 		</Action>
 		<Action sr="act36" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act38" ve="7">
 			<code>549</code>
 			<label>template_url</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -9344,7 +9390,7 @@ setLocal('is_different', is_different.toString());</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act39" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -9378,29 +9424,6 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act38" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%project_url</Str>
-			<Str sr="arg1" ve="3">%http_data</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">template_url</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
 		<Action sr="act4" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var http_data = local('http_data');
@@ -9421,6 +9444,29 @@ setLocal('is_different', is_different.toString());</Str>
 			<Int sr="arg3" val="45"/>
 		</Action>
 		<Action sr="act40" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%project_url</Str>
+			<Str sr="arg1" ve="3">%http_data</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">template_url</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act42" ve="7">
 			<code>549</code>
 			<label>version</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -9428,7 +9474,7 @@ setLocal('is_different', is_different.toString());</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act41" ve="7">
+		<Action sr="act43" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -9462,7 +9508,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act42" ve="7">
+		<Action sr="act44" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%version(1)</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -9472,7 +9518,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act43" ve="7">
+		<Action sr="act45" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -9485,7 +9531,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act44" ve="7">
+		<Action sr="act46" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%name_arq</Str>
 			<Str sr="arg1" ve="3">ZAP_RAPLY_API_v_%version(1)_.prj.xml</Str>
@@ -9495,14 +9541,14 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act45" ve="7">
+		<Action sr="act47" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/%name_arq</Str>
 			<Str sr="arg1" ve="3">%project_url</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act46" ve="7">
+		<Action sr="act48" ve="7">
 			<code>365</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -9514,7 +9560,7 @@ URI de Conteúdo
 			</Bundle>
 			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/%name_arq)</Str>
 		</Action>
-		<Action sr="act47" ve="7">
+		<Action sr="act49" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
@@ -9525,7 +9571,18 @@ URI de Conteúdo
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act48" ve="7">
+		<Action sr="act5" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%is_different</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act50" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -9559,7 +9616,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act49" ve="7">
+		<Action sr="act51" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -9572,18 +9629,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act5" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%is_different</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act50" ve="7">
+		<Action sr="act52" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%update</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -9593,7 +9639,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act51" ve="7">
+		<Action sr="act53" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%scheduled_time</Str>
 			<Str sr="arg1" ve="3">06.00</Str>
@@ -9603,7 +9649,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act52" ve="7">
+		<Action sr="act54" ve="7">
 			<code>38</code>
 		</Action>
 		<Action sr="act6" ve="7">
@@ -9676,7 +9722,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
             O sistema identifica o usuário se está em modo  send ou sende end receive, usuários cadastrados apenas no modo Sandy não receberás de notificações de mensagem recebidas, será usado apenas a função de envio, já usuários cadastrados no modo sender end receive irá conseguir enviar mensagens de arquivos quando receber as notificações &lt;br&gt;
             04 de Julho de 2025&lt;br&gt;&lt;br&gt;
         &lt;/p&gt;
-</pvv>
+    </pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 		<ProfileVariable sr="pv2">
@@ -9720,7 +9766,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 	</Task>
 	<Task sr="task877">
 		<cdate>1750622181101</cdate>
-		<edate>1751584470773</edate>
+		<edate>1751647404883</edate>
 		<id>877</id>
 		<nme>003-DESCONECTAR [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -9941,7 +9987,7 @@ true</Str>
 	</Task>
 	<Task sr="task883">
 		<cdate>1750774903586</cdate>
-		<edate>1751556001940</edate>
+		<edate>1751660682946</edate>
 		<id>883</id>
 		<nme>004 CAPTURAR NÚMERO E JID [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -10060,7 +10106,7 @@ setLocal("name", nome);</Str>
 	</Task>
 	<Task sr="task884">
 		<cdate>1750801605699</cdate>
-		<edate>1751605473215</edate>
+		<edate>1751556037349</edate>
 		<id>884</id>
 		<nme>010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</nme>
 		<rty>2</rty>
@@ -15067,14 +15113,14 @@ if (missingVariables.length &gt; 0) {
 	</Task>
 	<Task sr="task885">
 		<cdate>1749673972765</cdate>
-		<edate>1751641096308</edate>
+		<edate>1751647600556</edate>
 		<id>885</id>
 		<nme>007-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</nme>
 		<pri>6</pri>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%caller1</lhs>
@@ -15367,7 +15413,7 @@ setLocal('json_valid', is_valid.toString());</Str>
 	</Task>
 	<Task sr="task886">
 		<cdate>1751310483241</cdate>
-		<edate>1751578498182</edate>
+		<edate>1751660677962</edate>
 		<id>886</id>
 		<nme>002-BAIXAR-TAREFAS-ENVIO [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -15403,6 +15449,19 @@ setLocal('json_valid', is_valid.toString());</Str>
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>412</code>
+			<Str sr="arg0" ve="3">%cam_imgs</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Str sr="arg5" ve="3">%icons</Str>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%icons</Str>
 			<Str sr="arg1" ve="3">%icons()</Str>
@@ -15412,7 +15471,7 @@ setLocal('json_valid', is_valid.toString());</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act11" ve="7">
+		<Action sr="act13" ve="7">
 			<code>129</code>
 			<Str sr="arg0" ve="3">var icons = local('icons');
 var ld_selected = local('ld_selected');
@@ -15430,7 +15489,7 @@ if (!ld_selected || ld_selected.trim() === '') {
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act14" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<label>gerar imagem da porta com canvas</label>
@@ -15442,7 +15501,7 @@ if (!ld_selected || ld_selected.trim() === '') {
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act15" ve="7">
 			<code>547</code>
 			<label>Texto a ser escrito na imagem</label>
 			<Str sr="arg0" ve="3">%text</Str>
@@ -15455,7 +15514,7 @@ PORTA
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act16" ve="7">
 			<code>547</code>
 			<label>Caminho de destino da imagem gerada com texto</label>
 			<Str sr="arg0" ve="3">%image_destination</Str>
@@ -15466,7 +15525,7 @@ PORTA
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act15" ve="7">
+		<Action sr="act17" ve="7">
 			<code>129</code>
 			<label>[SCRIPT]</label>
 			<Str sr="arg0" ve="3">const config = {
@@ -15603,25 +15662,30 @@ generateImage();</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act16" ve="7">
+		<Action sr="act18" ve="7">
 			<code>775</code>
 			<label>Cria imagem</label>
 			<Str sr="arg0" ve="3">%canvas_image</Str>
 			<Str sr="arg1" ve="3">%image_destination</Str>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act19" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%canvas_image</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
+		<Action sr="act2" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act20" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act19" ve="7">
+		<Action sr="act21" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%ld_selected</lhs>
@@ -15630,12 +15694,21 @@ generateImage();</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act2" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
+		<Action sr="act22" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
-		<Action sr="act20" ve="7">
+		<Action sr="act23" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act24" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%port</Str>
 			<Str sr="arg1" ve="3">%ld_selected</Str>
@@ -15645,7 +15718,7 @@ generateImage();</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act21" ve="7">
+		<Action sr="act25" ve="7">
 			<code>549</code>
 			<label>template_url</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -15653,7 +15726,7 @@ generateImage();</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act22" ve="7">
+		<Action sr="act26" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -15687,7 +15760,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act23" ve="7">
+		<Action sr="act27" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -15697,7 +15770,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act24" ve="7">
+		<Action sr="act28" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -15710,7 +15783,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act25" ve="7">
+		<Action sr="act29" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">PORT</Str>
@@ -15721,7 +15794,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">%port</Str>
 		</Action>
-		<Action sr="act26" ve="7">
+		<Action sr="act3" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act30" ve="7">
 			<code>549</code>
 			<label>version_url</label>
 			<Str sr="arg0" ve="3">%http_response_code</Str>
@@ -15729,7 +15805,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act27" ve="7">
+		<Action sr="act31" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -15763,7 +15839,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act28" ve="7">
+		<Action sr="act32" ve="7">
 			<code>135</code>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="1"/>
@@ -15776,7 +15852,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act29" ve="7">
+		<Action sr="act33" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%version</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -15786,10 +15862,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act30" ve="7">
+		<Action sr="act34" ve="7">
 			<code>598</code>
 			<label>remove a quebra de linha</label>
 			<Str sr="arg0" ve="3">%version</Str>
@@ -15801,7 +15874,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3"/>
 		</Action>
-		<Action sr="act31" ve="7">
+		<Action sr="act35" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%port(1)</Str>
 			<Str sr="arg1" ve="3">%port</Str>
@@ -15811,7 +15884,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act32" ve="7">
+		<Action sr="act36" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">VERSION</Str>
@@ -15822,7 +15895,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">v(%version)</Str>
 		</Action>
-		<Action sr="act33" ve="7">
+		<Action sr="act37" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">port-icon-port</Str>
@@ -15833,7 +15906,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">port-%port</Str>
 		</Action>
-		<Action sr="act34" ve="7">
+		<Action sr="act38" ve="7">
 			<code>547</code>
 			<label>id_%port(1)_VERSION_ZapRepaly.prj.xml</label>
 			<Str sr="arg0" ve="3">%name_arq</Str>
@@ -15844,7 +15917,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act35" ve="7">
+		<Action sr="act39" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%project_url</Str>
 			<Str sr="arg1" ve="3">VERSION</Str>
@@ -15855,14 +15928,20 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">v(%version)</Str>
 		</Action>
-		<Action sr="act36" ve="7">
+		<Action sr="act4" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
 			<code>410</code>
 			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/%name_arq</Str>
 			<Str sr="arg1" ve="3">%project_url</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
-		<Action sr="act37" ve="7">
+		<Action sr="act41" ve="7">
 			<code>365</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -15874,7 +15953,7 @@ URI de Conteúdo
 			</Bundle>
 			<Str sr="arg1" ve="3">FilePathToContentUri(/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/%name_arq)</Str>
 		</Action>
-		<Action sr="act38" ve="7">
+		<Action sr="act42" ve="7">
 			<code>20</code>
 			<App sr="arg0">
 				<appClass>com.joaomgcd.taskerm.datashare.import.ActivityImportTaskerDataFromXml</appClass>
@@ -15885,10 +15964,18 @@ URI de Conteúdo
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="1"/>
 		</Action>
-		<Action sr="act39" ve="7">
+		<Action sr="act43" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
 			<code>129</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">var users = JSON.parse(local("users"));
@@ -15902,7 +15989,7 @@ setLocal("ports_count", ports.length);</Str>
 			<Int sr="arg2" val="1"/>
 			<Int sr="arg3" val="45"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act7" ve="7">
 			<code>378</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
@@ -15933,7 +16020,7 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 			<Str sr="arg8" ve="3"/>
 			<Int sr="arg9" val="120"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act8" ve="7">
 			<code>37</code>
 			<coll>true</coll>
 			<ConditionList sr="if">
@@ -15950,23 +16037,10 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act9" ve="7">
 			<code>137</code>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>412</code>
-			<Str sr="arg0" ve="3">%cam_imgs</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">%icons</Str>
-			<Int sr="arg6" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/user-allowed.png</fle>
@@ -16018,7 +16092,7 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 		<cdate>1751567176596</cdate>
 		<edate>1751567176596</edate>
 		<id>887</id>
-		<pri>8</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<on>false</on>
@@ -16027,7 +16101,7 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 	</Task>
 	<Task sr="task888">
 		<cdate>1748146743111</cdate>
-		<edate>1751605787412</edate>
+		<edate>1751660598498</edate>
 		<id>888</id>
 		<nme>001-INSTALACAO [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -16382,7 +16456,7 @@ O ambiente está pronto para uso com todas as permissões ativas.</Str>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
-			<coll>true</coll>
+			<coll>false</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%td_button</lhs>
@@ -16520,7 +16594,7 @@ fi</Str>
 	</Task>
 	<Task sr="task889">
 		<cdate>1749667525619</cdate>
-		<edate>1751639223568</edate>
+		<edate>1751655151921</edate>
 		<id>889</id>
 		<nme>006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
@@ -16826,251 +16900,12 @@ echo "🚀 Iniciando zapreplayapi..."
 			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act15" ve="7">
-			<code>410</code>
-			<label>Script com código a ser executado</label>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%termux_path/install.sh</Str>
-			<Str sr="arg1" ve="3">#!/data/data/com.termux/files/usr/bin/bash
-
-# Definir variáveis
-RESET=true        # true para apagar tudo; false para apagar apenas a pasta da instância
-PORT=7774         # Porta para a instância
-FOREIGN_KEYS=on   # on ou off para foreign keys no banco de dados
-CHAT_STORAGE=true # true ou false para WHATSAPP_CHAT_STORAGE
-
-BLUE='\033[1;34m'
-NC='\033[0m' # Reset
-
-LOG_DIR="/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs"
-LOG_FILE="$LOG_DIR/install.txt"
-PROGRESS_FILE="$LOG_DIR/progress.txt"
-
-# Criar diretório de logs e limpar arquivos antigos
-mkdir -p "$LOG_DIR"
-rm -f "$LOG_DIR"/* # Limpa todos os arquivos no diretório de logs, incluindo progress.txt
-: &gt; "$PROGRESS_FILE" # Garante que progress.txt esteja vazio para uma instalação limpa
-exec &gt; &gt;(tee -a "$LOG_FILE") 2&gt;&amp;1
-
-# Contador de processos (25 etapas principais antes de iniciar o servidor)
-TOTAL_STEPS=25
-CURRENT_STEP=0
-
-# Lista de tempos fixos para cada processo (em segundos, ajuste manualmente aqui)
-DELAYS=(0 5 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0) # 25 valores
-DELAY_INDEX=0
-
-# Função para aplicar tempo fixo
-fixed_delay() {
-    DELAY=${DELAYS[$DELAY_INDEX]}
-    echo "[+] Aguardando $DELAY segundos antes do próximo processo..."
-    sleep $DELAY
-    DELAY_INDEX=$((DELAY_INDEX + 1))
-}
-
-# Função para atualizar progresso
-update_progress() {
-    CURRENT_STEP=$((CURRENT_STEP + 1))
-    PROGRESS=$(awk "BEGIN {printf \"%.2f\", ($CURRENT_STEP * 100) / $TOTAL_STEPS}")
-    echo "Progresso: $PROGRESS%" &gt;&gt; "$PROGRESS_FILE"
-}
-
-clear
-
-print_banner() {
-  echo -e "${BLUE}"
-  echo "▁ ▂ ▄ ▅ ▆ ▇ █ ᴢᴀᴘʀᴇᴘʟʏᴀᴘɪ █ ▇ ▆ ▅ ▄ ▂ ▁"
-  echo -e "${NC}"
-  fixed_delay
-  update_progress
-}
-
-print_banner
-
-# Configurar mirror do Termux
-echo "[+] Configurando mirror do Termux..."
-echo "deb https://termux.mentality.rip/termux-main stable main" &gt; $PREFIX/etc/apt/sources.list
-echo "[✓] Mirror configurado."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Atualizar pacotes
-echo "[+] Atualizando pacotes do Termux..."
-yes | pkg update -o Acquire::Retries=3 --allow-downgrades &amp;&amp; yes | pkg upgrade -o Acquire::Retries=3 --allow-downgrades
-echo "[✓] Atualização finalizada."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-install_if_missing() {
-  if ! command -v "$1" &gt;/dev/null 2&gt;&amp;1; then
-    echo "[+] Instalando pacote: $1..."
-    pkg install -y "$1" -o Acquire::Retries=3
-  else
-    echo "[✓] Pacote já instalado: $1"
-  fi
-  fixed_delay
-  update_progress
-}
-
-install_if_missing git
-install_if_missing golang
-install_if_missing ffmpeg
-install_if_missing psmisc
-echo "[✓] Pacotes essenciais instalados."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Configurar Git
-echo "[+] Configurando Git..."
-git config --global http.lowSpeedLimit 0
-git config --global http.lowSpeedTime 999999
-git config --global http.retries 3
-echo "[✓] Git configurado."
-echo ""
-fixed_delay
-update_progress
-
-# Definir PROJECT_DIR
-PROJECT_DIR="$HOME/ZapReplyApi$PORT"
-
-# Lógica para RESET
-if [ "$RESET" = "true" ]; then
-    echo "[!] RESET=true: Apagando todas as pastas ZapReplyApi*..."
-    rm -rf "$HOME"/ZapReplyApi*
-    echo "[✓] Pastas removidas."
-else
-    if [ -d "$PROJECT_DIR" ]; then
-        echo "[!] Diretório '$PROJECT_DIR' existe. Removendo..."
-        rm -rf "$PROJECT_DIR"
-        echo "[✓] Diretório removido."
-    else
-        echo "[+] Diretório não encontrado. Clonando repositório..."
-    fi
-fi
-fixed_delay
-update_progress
-
-# Clonar repositório
-echo "[+] Clonando repositório ZapReplyApi..."
-git clone https://github.com/ZapReplyApi/ZapReplyApi.git "$PROJECT_DIR" --depth=1
-echo "[✓] Repositório clonado."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Verificar pasta src
-if [ -f "$PROJECT_DIR/src/main.go" ]; then
-    cd "$PROJECT_DIR/src" || { echo "[ERRO] Falha ao acessar $PROJECT_DIR/src"; exit 1; }
-else
-    echo -e "${BLUE}[ERRO] main.go não encontrado em $PROJECT_DIR/src.${NC}"
-    exit 1
-fi
-fixed_delay
-update_progress
-
-# Configurar proxy Go
-echo "[+] Configurando proxy Go..."
-export GOPROXY=https://goproxy.io
-echo "[✓] Proxy configurado."
-echo ""
-fixed_delay
-update_progress
-
-# Instalar dependências Go
-echo "[+] Instalando dependências Go..."
-go get -u -v go.mau.fi/whatsmeow@latest
-go get -u -v golang.org/x/sync/errgroup@latest
-go get -u -v github.com/joho/godotenv@latest
-go get -u -v github.com/gofiber/fiber/v2@latest
-go get -u -v github.com/sirupsen/logrus@latest
-go get -u -v modernc.org/sqlite@latest
-go mod tidy
-echo "[✓] Dependências instaladas."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Compilar
-echo "[+] Compilando zapreplayapi..."
-if ! go build -o zapreplayapi 2&gt; build_error.log; then
-    echo "[ERRO] Falha na compilação. Detalhes:"
-    cat build_error.log
-    rm build_error.log
-    exit 1
-fi
-if [ ! -f zapreplayapi ]; then
-    echo "[ERRO] Executável zapreplayapi não foi gerado."
-    exit 1
-fi
-echo "[✓] Compilação concluída."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Criar diretório storages
-echo "[+] Criando diretório storages..."
-mkdir -p storages
-echo "[✓] Diretório criado."
-echo ""
-fixed_delay
-update_progress
-
-# Criar .env
-echo "[+] Criando .env..."
-cat &gt; .env &lt;&lt; EOL
-APP_PORT=$PORT
-DB_URI=file:storages/whatsapp.db?_foreign_keys=$FOREIGN_KEYS
-WHATSAPP_WEBHOOK=http://localhost:3129/Tasker
-WHATSAPP_CHAT_STORAGE=$CHAT_STORAGE
-APP_OS=ZAP-REPLAY-API
-APP_CHAT_FLUSH_INTERVAL=7
-EOL
-echo "[✓] .env criado."
-echo ""
-fixed_delay
-update_progress
-
-print_banner
-
-# Mensagem de conclusão
-echo -e "${BLUE}╔═══════════════════════════════════════════════╗${NC}"
-echo -e "${BLUE}║        Instalação concluída com sucesso!      ║${NC}"
-echo -e "${BLUE}║      Desenvolvido por: Andredye Oliveira      ║${NC}"
-echo -e "${BLUE}╚═══════════════════════════════════════════════╝${NC}"
-echo "✅ Iniciando zapreplayapi..."
-fixed_delay
-update_progress # Última atualização do progresso, atinge 100%
-
-# Iniciar servidor
-echo "[+] Iniciando servidor..."
-echo "🔍 Procurando processo zapreplayapi..."
-PID=$(ps aux | grep "./zapreplayapi" | grep -v grep | awk '{print $2}')
-if [ -n "$PID" ]; then
-    echo "🔴 Processo encontrado: PID $PID. Encerrando..."
-    kill -9 $PID
-    echo "✅ Processo $PID encerrado."
-else
-    echo "🟢 Nenhum processo encontrado."
-fi
-
-echo "🚀 Iniciando zapreplayapi..."
-./zapreplayapi rest --debug=true</Str>
+			<code>30</code>
+			<Int sr="arg0" val="500"/>
+			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>389</code>
@@ -18113,7 +17948,7 @@ renderUsers();</Str>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>37</code>
-			<coll>false</coll>
+			<coll>true</coll>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
 					<lhs>%par1</lhs>
