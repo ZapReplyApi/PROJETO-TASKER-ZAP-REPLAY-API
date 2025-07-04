@@ -10,4 +10,8 @@
             <b>*Modo de usuário*</b><br>
             O sistema identifica o usuário se está em modo  send ou sende end receive, usuários cadastrados apenas no modo Sandy não receberás de notificações de mensagem recebidas, será usado apenas a função de envio, já usuários cadastrados no modo sender end receive irá conseguir enviar mensagens de arquivos quando receber as notificações <br>
             04 de Julho de 2025<br><br>
+
+            <b>*Melhorias de sistema*</b><br>
+            Ao realizar a instalação o aparelho se manterá ativo até a finalização, adicionado também tempo de espera para tempo de escrita dos arquivos necessários para instalação <br>
+            04 de Julho de 2025<br><br>
         </p>
