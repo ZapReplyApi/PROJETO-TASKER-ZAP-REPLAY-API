@@ -1,5 +1,10 @@
         <p class="changelog-text">
             <b>*Melhoria de Funcionalidades*</b><br>
-            Melhorias nas responsividades *das* cenas<br>
+            Melhorias nas responsividades cenas<br>
+            01 de Julho de 2025<br>
+        </p>
+<p class="changelog-text">
+            <b>*Melhoria de Funcionalidades*</b><br>
+            Melhorias nas responsividades cenas<br>
             01 de Julho de 2025<br>
         </p>
