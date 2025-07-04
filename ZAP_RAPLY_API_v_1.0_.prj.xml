@@ -141,7 +141,7 @@ Valores Multipartes
 			<pvit>pj</pvit>
 			<pvn>%scheduled_time</pvn>
 			<pvt>t</pvt>
-			<pvv>11:45</pvv>
+			<pvv>06.00</pvv>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Project>
