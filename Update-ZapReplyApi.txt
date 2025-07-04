@@ -1,10 +1,13 @@
         <p class="changelog-text">
-            <b>*Melhoria de Funcionalidades*</b><br>
-            Melhorias nas responsividades cenas<br>
-            01 de Julho de 2025<br>
-        </p>
-<p class="changelog-text">
-            <b>*Melhoria de Funcionalidades*</b><br>
-            Melhorias nas responsividades cenas<br>
-            01 de Julho de 2025<br>
+            <b>*Melhoria de design nas cenas*</b><br>
+            as cores de iracenos foram alteradas para ter uma melhor visualização .<br>
+            01 de Julho de 2025<br><br>
+
+            <b>*Melhoria de responsividade nas cenas*</b><br>
+            Ajuste de responsabilidade para aparelhos diferentes para melhor visualização do usuário .<br>
+            04 de Julho de 2025<br><br>
+
+            <b>*Modo de usuário*</b><br>
+            O sistema identifica o usuário se está em modo  send ou sende end receive, usuários cadastrados apenas no modo Sandy não receberás de notificações de mensagem recebidas, será usado apenas a função de envio, já usuários cadastrados no modo sender end receive irá conseguir enviar mensagens de arquivos quando receber as notificações <br>
+            04 de Julho de 2025<br><br>
         </p>
