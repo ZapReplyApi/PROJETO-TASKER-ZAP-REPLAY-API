@@ -14,4 +14,9 @@
             <b>*Melhorias de sistema*</b><br>
             Ao realizar a instalação o aparelho se manterá ativo até a finalização, adicionado também tempo de espera para tempo de escrita dos arquivos necessários para instalação <br>
             04 de Julho de 2025<br><br>
+
+             <b>*Melhorias de sistema*</b><br>
+            Melhoria nas conexões das portas ao fazer a reconexão de forma automática identificará todas as portas e irá executá-las separadamente as suas instâncias <br>
+            05 de Julho de 2025<br><br>
+
         </p>
