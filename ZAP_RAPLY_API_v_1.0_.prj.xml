@@ -1,69 +1,41 @@
 <TaskerData sr="" dvi="1" tv="6.6.0-beta">
 	<dmetric>1080.0,2400.0</dmetric>
-	<Profile sr="prof891" ve="2">
-		<cdate>1751633730631</cdate>
+	<Profile sr="prof1146" ve="2">
+		<cdate>1751728274301</cdate>
 		<clp>true</clp>
-		<edate>1751726654633</edate>
+		<edate>1751728942975</edate>
 		<flags>8</flags>
-		<id>891</id>
+		<id>1146</id>
 		<limit>true</limit>
-		<mid0>885</mid0>
-		<nme>001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</nme>
-		<Time sr="con0">
-			<fromvar>%next_task_time</fromvar>
-			<tovar>%next_task_time</tovar>
-		</Time>
-		<ProfileVariable sr="pv0">
-			<clearout>true</clearout>
-			<exportval></exportval>
-			<immutable>false</immutable>
-			<pvci>true</pvci>
-			<pvd></pvd>
-			<pvdn></pvdn>
-			<pvid>891</pvid>
-			<pvit>pr</pvit>
-			<pvn>%next_task_time</pvn>
-			<pvt>t</pvt>
-			<pvv>%TIME</pvv>
-			<strout>true</strout>
-		</ProfileVariable>
-	</Profile>
-	<Profile sr="prof892" ve="2">
-		<cdate>1751633730632</cdate>
-		<clp>true</clp>
-		<edate>1751726637015</edate>
-		<flags>8</flags>
-		<id>892</id>
-		<limit>true</limit>
-		<mid0>882</mid0>
+		<mid0>1134</mid0>
 		<nme>002-RECONECTAR [ zap-replay-api ] v(1.0)</nme>
 		<Event sr="con0" ve="2">
 			<code>411</code>
 			<pri>0</pri>
 		</Event>
 	</Profile>
-	<Profile sr="prof894" ve="2">
-		<cdate>1751633730633</cdate>
+	<Profile sr="prof1147" ve="2">
+		<cdate>1751728274302</cdate>
 		<clp>true</clp>
-		<edate>1751726639663</edate>
+		<edate>1751728942413</edate>
 		<flags>8</flags>
-		<id>894</id>
+		<id>1147</id>
 		<limit>true</limit>
-		<mid0>875</mid0>
+		<mid0>1129</mid0>
 		<nme>004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
 		<Time sr="con0">
 			<fromvar>%scheduled_time</fromvar>
 			<tovar>%scheduled_time</tovar>
 		</Time>
 	</Profile>
-	<Profile sr="prof895" ve="2">
-		<cdate>1751633730635</cdate>
+	<Profile sr="prof1148" ve="2">
+		<cdate>1751728274303</cdate>
 		<clp>true</clp>
-		<edate>1751726636662</edate>
+		<edate>1751728942689</edate>
 		<flags>8</flags>
-		<id>895</id>
+		<id>1148</id>
 		<limit>true</limit>
-		<mid0>858</mid0>
+		<mid0>1143</mid0>
 		<nme>003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</nme>
 		<Event sr="con0" ve="2">
 			<code>2089</code>
@@ -105,14 +77,42 @@ Valores Multipartes
 			<Str sr="arg7" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof1149" ve="2">
+		<cdate>1751728274305</cdate>
+		<clp>true</clp>
+		<edate>1751728953260</edate>
+		<flags>8</flags>
+		<id>1149</id>
+		<limit>true</limit>
+		<mid0>1137</mid0>
+		<nme>001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</nme>
+		<Time sr="con0">
+			<fromvar>%next_task_time</fromvar>
+			<tovar>%next_task_time</tovar>
+		</Time>
+		<ProfileVariable sr="pv0">
+			<clearout>true</clearout>
+			<exportval></exportval>
+			<immutable>false</immutable>
+			<pvci>true</pvci>
+			<pvd></pvd>
+			<pvdn></pvdn>
+			<pvid>1149</pvid>
+			<pvit>pr</pvit>
+			<pvn>%next_task_time</pvn>
+			<pvt>t</pvt>
+			<pvv>%TIME</pvv>
+			<strout>true</strout>
+		</ProfileVariable>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1748043215165</cdate>
 		<name>ZAP_RAPLY_API v(1.0)</name>
-		<pids>894,895,892,891</pids>
+		<pids>1148,1149,1146,1147</pids>
 		<psort>Alpha</psort>
-		<scenes>006-ATUALIZACOES [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</scenes>
+		<scenes>006-ATUALIZACOES [ zap-replay-api ] v(1.0),003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0),002-CENA-INSTALACAO [ zap-replay-api ] v(1.0),005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0),004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0),INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0),001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0)</scenes>
 		<ssort>Alpha</ssort>
-		<tids>874,882,889,865,887,876,861,872,866,875,884,883,858,885,888,855,878,877,886,881,890</tids>
+		<tids>1144,1139,1134,1143,1129,1142,1128,1125,1140,1136,1126,1127,1130,1137,1138,1150,1145,1135,1131,1133,1132,1141</tids>
 		<tsort>Alpha</tsort>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
@@ -156,7 +156,7 @@ Valores Multipartes
 		<WebElement sr="elements0" ve="2">
 			<flags>6</flags>
 			<geom>0,0,1079,2400,-1,-1,-1,-1</geom>
-			<linkclickTask>890</linkclickTask>
+			<linkclickTask>1144</linkclickTask>
 			<Str sr="arg0" ve="3">001-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">&lt;!doctype html&gt;
@@ -267,7 +267,7 @@ Valores Multipartes
 			<LinkClickFilter sr="filter0"/>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>866</keyTask>
+			<keyTask>1126</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -590,7 +590,7 @@ Valores Multipartes
 			<Str sr="arg8" ve="3"/>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>865</keyTask>
+			<keyTask>1125</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF000000</Str>
@@ -832,7 +832,7 @@ Valores Multipartes
 			</RectElement>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>855</keyTask>
+			<keyTask>1140</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00000000</Str>
@@ -1226,7 +1226,7 @@ Valores Multipartes
 			<Str sr="arg8" ve="3">destroyScene('004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)');</Str>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>876</keyTask>
+			<keyTask>1130</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#FF000000</Str>
@@ -1251,7 +1251,7 @@ Valores Multipartes
 		<WebElement sr="elements0" ve="2">
 			<flags>6</flags>
 			<geom>0,0,1079,2400,-1,-1,-1,-1</geom>
-			<linkclickTask>872</linkclickTask>
+			<linkclickTask>1127</linkclickTask>
 			<Str sr="arg0" ve="3">DESCONECTAR [ zap-replay-api ] v(1.0)</Str>
 			<Int sr="arg1" val="2"/>
 			<Str sr="arg2" ve="3">&lt;!DOCTYPE html&gt;
@@ -1317,7 +1317,7 @@ Valores Multipartes
 			<LinkClickFilter sr="filter0"/>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>878</keyTask>
+			<keyTask>1132</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1333,7 +1333,7 @@ Valores Multipartes
 	</Scene>
 	<Scene sr="scene006-ATUALIZACOES [ zap-replay-api ] v(1.0)">
 		<cdate>1751402967631</cdate>
-		<edate>1751640713734</edate>
+		<edate>1751728520991</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2400</heightPort>
 		<nme>006-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
@@ -1363,7 +1363,7 @@ Valores Multipartes
     &lt;div class="changelog-container"&gt;
 
 
-        %http_data
+        %update
 
 
     &lt;/div&gt;
@@ -1395,7 +1395,7 @@ Valores Multipartes
 			<Str sr="arg8" ve="3"/>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>887</keyTask>
+			<keyTask>1139</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00000000</Str>
@@ -1856,7 +1856,7 @@ Valores Multipartes
 			</RectElement>
 		</WebElement>
 		<PropertiesElement sr="props">
-			<keyTask>881</keyTask>
+			<keyTask>1133</keyTask>
 			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">#00FFFFFF</Str>
@@ -1870,1611 +1870,10 @@ Valores Multipartes
 			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
-	<Task sr="task855">
+	<Task sr="task1125">
 		<cdate>1749763769927</cdate>
 		<edate>1749763769927</edate>
-		<id>855</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-	</Task>
-	<Task sr="task858">
-		<cdate>1751354730604</cdate>
-		<edate>1751660609949</edate>
-		<id>858</id>
-		<nme>012-MENSAGENS-RECEBIDAS [ zap-replay-api ] v(1.0)</nme>
-		<pri>6</pri>
-		<rty>2</rty>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%caller1</lhs>
-					<op>3</op>
-					<rhs>ui</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>342</code>
-			<Int sr="arg0" val="5"/>
-			<Str sr="arg1" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
-			<Str sr="arg2" ve="3">%in_exist</Str>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var jsonString = local("http_request_body");
-
-function converterUnicode(str) {
-    if (!str) return "";
-    return str.replace(/\\u([\dA-Fa-f]{4})/g, function(match, codigoHex) {
-        return String.fromCharCode(parseInt(codigoHex, 16));
-    });
-}
-
-function extractPhoneNumber(vcard) {
-    if (!vcard) return "";
-    const match = vcard.match(/waid=(\d+):\+([\d\s-]+)/) || vcard.match(/TEL[^:]*:(\+[\d\s-]+)/);
-    return match ? match[1].replace(/[\s-]/g, "") : "";
-}
-
-// Função para mapear mime_type para extensão de arquivo
-function getFileExtension(mime_type) {
-    if (!mime_type) return "";
-    const mimeMap = {
-        "image/jpeg": ".jpeg",
-        "image/png": ".png",
-        "image/gif": ".gif",
-        "video/mp4": ".mp4",
-        "video/3gpp": ".3gp",
-        "audio/mpeg": ".mp3",
-        "audio/ogg": ".ogg",
-        "audio/aac": ".aac",
-        "document/pdf": ".pdf"
-    };
-    return mimeMap[mime_type] || "";
-}
-
-try {
-    var json = JSON.parse(jsonString);
-    
-    var port = json.Port || "";
-    var sender_number = json.SenderNumber ? json.SenderNumber.split("@")[0] : "";
-    var message_id = json.message?.ID || "";
-    var message = json.message?.TextMessage || "";
-    var is_group = String(json.IsGroup || "false");
-    var my_number = String(json.MyNumber || "false");
-    
-    var pushname = converterUnicode(json.PushName) || "";
-    var group_name = (is_group === "true") ? converterUnicode(json.GroupName) || "" : "";
-    
-    var type = json.Type || "";
-    var message_origin = json.message?.MessageOrigin || "";
-    var replied_id = json.message?.RepliedId || "";
-    
-    var jid = "";
-    if (json.SenderNumber &amp;&amp; json.SenderNumber.includes("g.us")) {
-        var match = json.SenderNumber.match(/(\d+)@g\.us/);
-        if (match &amp;&amp; match[1]) {
-            jid = match[1];
-        }
-    }
-
-    var timestamp = "";
-    if (json.timestamp) {
-        var data = new Date(json.timestamp);
-        timestamp = 
-            ("0" + data.getDate()).slice(-2) + "/" +
-            ("0" + (data.getMonth() + 1)).slice(-2) + "/" +
-            data.getFullYear() + " " +
-            ("0" + data.getHours()).slice(-2) + "." +
-            ("0" + data.getMinutes()).slice(-2) + "." +
-            ("0" + data.getSeconds()).slice(-2);
-    }
-    
-    var call_id = json.Call_Id || "";
-    var call_status = json.Status_Call || "";
-    
-    // Processar informações de contato
-    var vcard = "";
-    if (type === "contact" &amp;&amp; json.contact &amp;&amp; typeof json.contact === "object") {
-        if (Array.isArray(json.contact)) {
-            vcard = json.contact.map(contact =&gt; ({
-                name: contact.displayName || "",
-                number: extractPhoneNumber(contact.vcard)
-            }));
-        } else if (json.contact.displayName || json.contact.vcard) {
-            vcard = {
-                name: json.contact.displayName || "",
-                number: extractPhoneNumber(json.contact.vcard)
-            };
-        }
-    }
-    
-    // Processar informações de link
-    var link_title = json.message?.TitleLink || "";
-    var link_description = json.message?.LinkDescription || "";
-    
-    // Processar link do Google Maps para localização
-    var link_google_maps = "";
-    if ((type === "live_location_message" || type === "location_message") &amp;&amp; json.live_location) {
-        var latitude = json.live_location.degreesLatitude || 0;
-        var longitude = json.live_location.degreesLongitude || 0;
-        link_google_maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
-    } else if ((type === "live_location_message" || type === "location_message") &amp;&amp; json.location) {
-        var latitude = json.location.degreesLatitude || 0;
-        var longitude = json.location.degreesLongitude || 0;
-        link_google_maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
-    }
-    
-    // Processar extensão do arquivo e caption
-    var file_extension = "";
-    var caption = "";
-    if (type === "image_message" &amp;&amp; json.image) {
-        file_extension = getFileExtension(json.image.mime_type);
-        caption = json.image.caption || "";
-    } else if (type === "video_message" &amp;&amp; json.video) {
-        file_extension = getFileExtension(json.video.mime_type);
-        caption = json.video.caption || "";
-    } else if (type === "video_snapshot_message" &amp;&amp; json.video) { // Novo caso adicionado
-        file_extension = getFileExtension(json.video.mime_type);
-        caption = json.video.caption || "";
-    } else if (type === "audio_message" &amp;&amp; json.audio) {
-        file_extension = getFileExtension(json.audio.mime_type);
-        caption = json.audio.caption || "";
-    } else if (type === "document_message" &amp;&amp; json.document) {
-        file_extension = getFileExtension(json.document.mime_type);
-        caption = json.document.caption || "";
-    }
-    
-    // Criar objeto com todas as variáveis na sequência especificada
-    var output = {
-        port: port,
-        type: type,
-        sender_number: sender_number,
-        pushname: pushname,
-        group_name: group_name,
-        jid: jid,
-        is_group: is_group,
-        message_id: message_id,
-        message: message,
-        my_number: my_number,
-        message_origin: message_origin,
-        replied_id: replied_id,
-        call_id: call_id,
-        call_status: call_status,
-        timestamp: timestamp,
-        vcard: vcard,
-        link_title: link_title,
-        link_description: link_description,
-        link_google_maps: link_google_maps,
-        file_extension: file_extension,
-        caption: caption
-    };
-    
-    // Converter para JSON e salvar na variável de saída
-    setLocal("output_json", JSON.stringify(output));
-    
-    // SetLocal na sequência especificada
-    setLocal("port", port);
-    setLocal("type", type);
-    setLocal("sender_number", sender_number);
-    setLocal("pushname", pushname);
-    setLocal("group_name", group_name);
-    setLocal("jid", jid);
-    setLocal("is_group", is_group);
-    setLocal("message_id", message_id);
-    setLocal("message", message);
-    setLocal("my_number", my_number);
-    setLocal("message_origin", message_origin);
-    setLocal("replied_id", replied_id);
-    setLocal("call_id", call_id);
-    setLocal("call_status", call_status);
-    setLocal("timestamp", timestamp);
-    setLocal("vcard", JSON.stringify(vcard || ""));
-    setLocal("link_title", link_title);
-    setLocal("link_description", link_description);
-    setLocal("link_google_maps", link_google_maps);
-    setLocal("file_extension", file_extension);
-    setLocal("caption", caption);
-
-} catch (e) {
-    // Criar objeto com valores vazios na sequência especificada
-    var output = {
-        port: "",
-        type: "",
-        sender_number: "",
-        pushname: "",
-        group_name: "",
-        Diagnostics: {
-            Error: e.message
-        },
-        jid: "",
-        is_group: "",
-        message_id: "",
-        message: "",
-        my_number: "",
-        message_origin: "",
-        replied_id: "",
-        call_id: "",
-        call_status: "",
-        timestamp: "",
-        vcard: "",
-        link_title: "",
-        link_description: "",
-        link_google_maps: "",
-        file_extension: "",
-        caption: ""
-    };
-    
-    // Converter para JSON e salvar na variável de saída
-    setLocal("output_json", JSON.stringify(output));
-    
-    // SetLocal na sequência especificada
-    setLocal("port", "");
-    setLocal("type", "");
-    setLocal("sender_number", "");
-    setLocal("pushname", "");
-    setLocal("group_name", "");
-    setLocal("jid", "");
-    setLocal("is_group", "");
-    setLocal("message_id", "");
-    setLocal("message", "");
-    setLocal("my_number", "");
-    setLocal("message_origin", "");
-    setLocal("replied_id", "");
-    setLocal("call_id", "");
-    setLocal("call_status", "");
-    setLocal("timestamp", "");
-    setLocal("vcard", "");
-    setLocal("link_title", "");
-    setLocal("link_description", "");
-    setLocal("link_google_maps", "");
-    setLocal("file_extension", "");
-    setLocal("file_caption", "");
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%output_json</Str>
-			<Str sr="arg1" ve="3">%output_json</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var port = local('port');
-var users = local('users');
-
-function findModoOp(port, users) {
-  try {
-    const parsedUsers = JSON.parse(users);
-    if (!Array.isArray(parsedUsers)) return '';
-    
-    const user = parsedUsers.find(user =&gt; user.port === port);
-    return user ? user.modo_op : '';
-  } catch (e) {
-    return ''; // Retorna vazio se o JSON for inválido
-  }
-}
-
-var modo_op = findModoOp(port, users);
-
-setLocal('modo_op', modo_op);</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">MENSAGENS-RECEBIDAS [ zap-replay-api ]</Str>
-			<Int sr="arg1">
-				<var>%priority+30</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%http_request_body/%output_json/%port/%type/%sender_number/%pushname/%group_name/%jid/%is_group/%message_id/%message/%my_number/%message_origin/%replied_id/%call_id/%call_status/%timestamp/%vcard/%link_title/%link_description/%link_google_maps/%file_extension/%file_caption</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%modo_op</lhs>
-					<op>0</op>
-					<rhs>send and receive</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%type</lhs>
-					<op>2</op>
-					<rhs>text_message/image_message/video_message/video_snapshot_message/voice_message/audio_message/contact_message/document_message/voice_message/poll_message/poll_message/sticker_message</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>417</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
-			<Str sr="arg1" ve="3">%users_connecteds</Str>
-			<Int sr="arg2" val="1"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%in_exist</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var users_connecteds = local('users_connecteds');
-
-function isValidJson(jsonString) {
-  try {
-    const parsed = JSON.parse(jsonString);
-    return Array.isArray(parsed); // Verifica se é um array
-  } catch (e) {
-    return false; // Retorna false se o JSON for inválido
-  }
-}
-
-var is_valid = isValidJson(users_connecteds);
-
-setLocal('json_valid', is_valid.toString());</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>37</code>
-			<coll>false</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%json_valid</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%users</Str>
-			<Str sr="arg1" ve="3">%users_connecteds</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task861">
-		<cdate>1749757392787</cdate>
-		<edate>1751660633671</edate>
-		<id>861</id>
-		<nme>008-( SISTEMA )-INSTALACOES-GERAIS [ zap-replay-api ] v(1.0)</nme>
-		<pri>100</pri>
-		<rty>2</rty>
-		<stayawake>true</stayawake>
-		<Action sr="act0" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>iniciar-instalacao</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act10" ve="7">
-			<code>417</code>
-			<label>&lt;b&gt;&lt;font color=cyan&gt;
-path_progresso</label>
-			<Str sr="arg0" ve="3">%path_progresso</Str>
-			<Str sr="arg1" ve="3">%logs_progresso</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act100" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act101" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act102" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act103" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act104" ve="7">
-			<code>129</code>
-			<Str sr="arg0" ve="3">var usersData = JSON.parse(users);
-
-if (Array.isArray(usersData) &amp;&amp; usersData.length &gt; 0) {
-    var lastUser = usersData[usersData.length - 1];
-    var formattedJson = JSON.stringify(lastUser, null, 2);
-    setLocal('user_connected', formattedJson);
-}</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act105" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act106" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="10"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="1"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act107" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act108" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act109" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act11" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%logs_progresso</Str>
-			<Str sr="arg1" ve="3">%logs_progresso</Str>
-			<Str sr="arg2" ve="3">
-</Str>
-		</Action>
-		<Action sr="act110" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%par1</lhs>
-					<op>2</op>
-					<rhs>desconectar</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act111" ve="7">
-			<code>354</code>
-			<Str sr="arg0" ve="3">%ports</Str>
-			<Str sr="arg1" ve="3">%ports</Str>
-			<Str sr="arg2" ve="3">,</Str>
-		</Action>
-		<Action sr="act112" ve="7">
-			<code>369</code>
-			<Str sr="arg0" ve="3">%ports</Str>
-			<Int sr="arg1" val="1"/>
-		</Action>
-		<Action sr="act113" ve="7">
-			<code>39</code>
-			<Str sr="arg0" ve="3">%search</Str>
-			<Str sr="arg1" ve="3">%ports()</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act114" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:%search/app/logout</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act115" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act116" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act117" ve="7">
-			<code>547</code>
-			<label>adiciona * para não exibir os botões</label>
-			<Str sr="arg0" ve="3">%buttons</Str>
-			<Str sr="arg1" ve="3">*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act118" ve="7">
-			<code>547</code>
-			<label>margem da cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act119" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%text</Str>
-			<Str sr="arg1" ve="3">&lt;p&gt;&lt;strong&gt;A conexão do usuário &lt;span style="color:#FFD700;"&gt;%search&lt;/span&gt; com o banco de dados foi finalizada com sucesso.&lt;/strong&gt;&lt;/p&gt;</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">ZapReplyApi.</Str>
-			<Str sr="arg1" ve="3">%logs_progresso(&lt;)</Str>
-			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Img sr="arg2" ve="2">
-				<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
-			</Img>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="5"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<Str sr="arg9" ve="3"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%destroy_scene</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act120" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act121" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act122" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="3"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act123" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act124" ve="7">
-			<code>40</code>
-		</Action>
-		<Action sr="act125" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act13" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<bool0>And</bool0>
-				<Condition sr="c0" ve="3">
-					<lhs>%destroy_scene</lhs>
-					<op>2</op>
-					<rhs>true</rhs>
-				</Condition>
-				<Condition sr="c1" ve="3">
-					<lhs>%no_rept</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act14" ve="7">
-			<code>547</code>
-			<label>adiciona * para não exibir os botões</label>
-			<Str sr="arg0" ve="3">%buttons</Str>
-			<Str sr="arg1" ve="3">*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>547</code>
-			<label>margem da cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%text</Str>
-			<Str sr="arg1" ve="3">"A instalação do programa ZapReplyApi continuará sendo executada em segundo plano. Você pode utilizar seu dispositivo normalmente enquanto o processo é concluído automaticamente."</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act19" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="10"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act20" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>523</code>
-			<Str sr="arg0" ve="3">ZapReplyApi</Str>
-			<Str sr="arg1" ve="3">"A instalação do programa ZapReplyApi continuará sendo executada em segundo plano. Você pode utilizar seu dispositivo normalmente."</Str>
-			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Img sr="arg2" ve="2">
-				<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
-			</Img>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="5"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
-			<Str sr="arg9" ve="3"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>547</code>
-			<label>essa variável ela vai ser definida para que as informações dentro dessa condição não seja repetida</label>
-			<Str sr="arg0" ve="3">%no_rept</Str>
-			<Str sr="arg1" ve="3">1</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act24" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%destroy_scene</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act25" ve="7">
-			<code>53</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Str sr="arg1" ve="3">Barra De Progresso</Str>
-			<Int sr="arg2" val="11"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-		<Action sr="act26" ve="7">
-			<code>51</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Str sr="arg1" ve="3">Termux-inf</Str>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3">%logs_instalacao</Str>
-			<Str sr="arg4" ve="3"/>
-		</Action>
-		<Action sr="act27" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act28" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%logs_progresso(&lt;)</lhs>
-					<op>4</op>
-					<rhs>Progresso: 100.00%</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act29" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">fim da instalacao</Str>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">script-instalacao</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Str sr="arg7" ve="3">%json_conect</Str>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act30" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act31" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act32" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">path_arq</Str>
-		</Action>
-		<Action sr="act33" ve="7">
-			<code>300</code>
-			<label>fim da instalacao</label>
-		</Action>
-		<Action sr="act34" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%destroy_scene</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act35" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Str sr="arg1" ve="3">Termux-inf</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3">
-				<var>1500</var>
-			</Int>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act36" ve="7">
-			<code>65</code>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Str sr="arg1" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3">
-				<var>1500</var>
-			</Int>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act37" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act38" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%destroy_scene</lhs>
-					<op>2</op>
-					<rhs>false</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act39" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1">
-				<var>%priority+10</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3">instalacao</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act40" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3">ZapReplyApi.</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act41" ve="7">
-			<code>779</code>
-			<Str sr="arg0" ve="3">ZapReplyApi</Str>
-			<Int sr="arg1" val="0"/>
-		</Action>
-		<Action sr="act42" ve="7">
-			<code>300</code>
-			<label>&lt;b&gt;&lt;font color=cyan&gt;&lt;big&gt;
-a partir daqui vai iniciar o processo de conectividade do WhatsApp web</label>
-		</Action>
-		<Action sr="act43" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act44" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act45" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">&lt;br&gt;
-AGUARDE CONEXÃO EM ANDAMENTO</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,400</Str>
-			<Int sr="arg14" val="1"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3">TENTANDO CONECTAR AO WHATSAPP WEB</Str>
-			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FF003AF6</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">15000</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act46" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:%json_conect.port/app/login-with-code?phone=%json_conect.phone</Str>
-			<Str sr="arg3" ve="3">Accept: application/json, text/plain, */*</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act47" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%code_pairing</Str>
-			<Str sr="arg1" ve="3">%http_data.pair_code</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act48" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act49" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="1000"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act50" ve="7">
-			<code>547</code>
-			<label>adiciona * para não exibir os botões</label>
-			<Str sr="arg0" ve="3">%buttons</Str>
-			<Str sr="arg1" ve="3">*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act51" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act52" ve="7">
-			<code>547</code>
-			<label>margem da cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act53" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%text</Str>
-			<Str sr="arg1" ve="3">Não foi possível conectar no WhatsApp web por favor reinicie o celular novamente</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act54" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act55" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act56" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act57" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act58" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act59" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%code_pairing</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act6" ve="7">
-			<code>47</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="10"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act60" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act61" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act62" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3"> </Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3">top,0,4000</Str>
-			<Int sr="arg14" val="1"/>
-			<Str sr="arg15" ve="3">10</Str>
-			<Int sr="arg2" val="1"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
-			<Str sr="arg5" ve="3">40</Str>
-			<Str sr="arg6" ve="3">#FF003AF6</Str>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3">20</Str>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act63" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Str sr="arg1" ve="3">60</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act64" ve="7">
-			<code>300</code>
-			<label>verificação de conexão do usuário</label>
-		</Action>
-		<Action sr="act65" ve="7">
-			<code>339</code>
-			<se>false</se>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
-Cabeçalhos de Resposta
-Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
-Cookies
-Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
-Código de Resposta
-O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
-Dado
-Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
-Saída do Arquivo
-Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
-Tamanho da Resposta
-O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">http://localhost:%json_conect.port/user/info?phone=%json_conect.phone@s.whatsapp.net</Str>
-			<Str sr="arg3" ve="3">Accept: application/json, text/plain, */*
-content-type: application/json</Str>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act66" ve="7">
-			<code>328</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%kb_text
-Texto
-Texto presente na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%kb_text_before_cursor
-Texto Antes do Cursor
-Texto antes do cursor na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%kb_text_after_cursor
-Texto Após o Cursor
-Texto após o cursor na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%kb_text_selected
-Texto Selecionado
-Texto selecionado na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Str sr="arg1" ve="3">write(%code_pairing)</Str>
-			<Int sr="arg2" val="50"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act67" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Str sr="arg1" ve="3">%time</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act68" ve="7">
-			<code>890</code>
-			<Str sr="arg0" ve="3">%time</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act69" ve="7">
-			<code>547</code>
-			<label>adiciona * para não exibir os botões</label>
-			<Str sr="arg0" ve="3">%buttons</Str>
-			<Str sr="arg1" ve="3">*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act7" ve="7">
-			<code>547</code>
-			<label>path_arq</label>
-			<Str sr="arg0" ve="3">%path_arq</Str>
-			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/install.txt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act70" ve="7">
-			<code>547</code>
-			<label>margem da cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act71" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%text</Str>
-			<Str sr="arg1" ve="3">Código Válido por um minuto
-&lt;br&gt;
-&lt;span style="color: #FFFF00;"&gt; Código de pareamento
-&lt;br&gt;
-➫ %code_pairing
-&lt;br&gt;
-Tempo restante %time</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act72" ve="7">
-			<code>53</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Str sr="arg1" ve="3">Exibir Informações Gerais</Str>
-			<Int sr="arg2" val="11"/>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-		<Action sr="act73" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act74" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%time</lhs>
-					<op>2</op>
-					<rhs>0</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act75" ve="7">
-			<code>61</code>
-			<Int sr="arg0" val="1000"/>
-		</Action>
-		<Action sr="act76" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act77" ve="7">
-			<code>547</code>
-			<label>adiciona * para não exibir os botões</label>
-			<Str sr="arg0" ve="3">%buttons</Str>
-			<Str sr="arg1" ve="3">*</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act78" ve="7">
-			<code>547</code>
-			<label>margem da cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%margin</Str>
-			<Str sr="arg1" ve="3">center</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act79" ve="7">
-			<code>547</code>
-			<label>cor da informação do texto na cena
-WAITING-FOR-SETTINGS v(1.0)</label>
-			<Str sr="arg0" ve="3">%color_text</Str>
-			<Str sr="arg1" ve="3">#FF0000</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>417</code>
-			<Str sr="arg0" ve="3">%path_arq</Str>
-			<Str sr="arg1" ve="3">%logs_instalacao</Str>
-			<Int sr="arg2" val="1"/>
-		</Action>
-		<Action sr="act80" ve="7">
-			<code>547</code>
-			<label>informação que irá ser exibido na cena
-003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
-			<Str sr="arg0" ve="3">%text</Str>
-			<Str sr="arg1" ve="3">TEMPO EXCEDIDO TENTE NOVAMENTE !!!</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act81" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act82" ve="7">
-			<code>30</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="5"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-		</Action>
-		<Action sr="act83" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act84" ve="7">
-			<code>137</code>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3"/>
-		</Action>
-		<Action sr="act85" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act86" ve="7">
-			<code>37</code>
-			<coll>true</coll>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>2</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act87" ve="7">
-			<code>245</code>
-		</Action>
-		<Action sr="act88" ve="7">
-			<code>245</code>
-		</Action>
-		<Action sr="act89" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act9" ve="7">
-			<code>547</code>
-			<label>&lt;b&gt;&lt;font color=cyan&gt;
-path_progresso</label>
-			<Str sr="arg0" ve="3">%path_progresso</Str>
-			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/progress.txt</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act90" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Action sr="act91" ve="7">
-			<code>129</code>
-			<label>identifica o usuário que irá ser conectar e adicionar dentro da variável users</label>
-			<Str sr="arg0" ve="3">var tempUsers = local('users');
-var newData = JSON.parse(local('json_conect'));
-delete newData.reset;
-
-var usersList = [];
-if (tempUsers) {
-    usersList = JSON.parse(tempUsers);
-    if (!Array.isArray(usersList)) usersList = [usersList];
-    
-    for (var i = 0; i &lt; usersList.length; i++) {
-        if (usersList[i].phone === newData.phone) {
-            setLocal('error','numero ja existe');
-            exit();
-        }
-    }
-}
-
-usersList.push(newData);
-  
-users = JSON.stringify(usersList, null, 2);
-setLocal('error', '');</Str>
-			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="1"/>
-			<Int sr="arg3" val="45"/>
-		</Action>
-		<Action sr="act92" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
-			<Str sr="arg1" ve="3">%users</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act93" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
-		</Action>
-		<Action sr="act94" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">usuário conectado</Str>
-		</Action>
-		<Action sr="act95" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act96" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="1"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">verificação de conexão do usuário</Str>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%http_response_code</lhs>
-					<op>3</op>
-					<rhs>200</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act97" ve="7">
-			<code>300</code>
-			<label>usuário conectado</label>
-		</Action>
-		<Action sr="act98" ve="7">
-			<code>303</code>
-			<Int sr="arg0" val="255"/>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-		</Action>
-		<Action sr="act99" ve="7">
-			<code>445</code>
-			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="4"/>
-			<Int sr="arg4" val="1"/>
-		</Action>
-		<Img sr="icn" ve="2">
-			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
-		</Img>
-	</Task>
-	<Task sr="task865">
-		<cdate>1749763769927</cdate>
-		<edate>1749763769927</edate>
-		<id>865</id>
+		<id>1125</id>
 		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -3491,20 +1890,20 @@ setLocal('error', '');</Str>
 			<Int sr="arg6" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task866">
+	<Task sr="task1126">
 		<cdate>1749673531756</cdate>
 		<edate>1749673531756</edate>
-		<id>866</id>
+		<id>1126</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">001-CENA-MENU-INICIAL [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task872">
+	<Task sr="task1127">
 		<cdate>1750698427946</cdate>
 		<edate>1750698427946</edate>
-		<id>872</id>
+		<id>1127</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
@@ -3536,10 +1935,10 @@ setLocal('error', '');</Str>
 			<code>38</code>
 		</Action>
 	</Task>
-	<Task sr="task874">
+	<Task sr="task1128">
 		<cdate>1750773941558</cdate>
 		<edate>1751556973870</edate>
-		<id>874</id>
+		<id>1128</id>
 		<nme>011-( SISTEMA )-ENVIOS [ zap-replay-api ] v(1.0)</nme>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
@@ -9038,10 +7437,10 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task875">
+	<Task sr="task1129">
 		<cdate>1751351658710</cdate>
-		<edate>1751726039891</edate>
-		<id>875</id>
+		<edate>1751728935166</edate>
+		<id>1129</id>
 		<nme>005-ATUALIZACOES [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -9215,7 +7614,16 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 var update = local('update');
 
 function normalize(text) {
-  return text.replace(/(\r\n|\n|\r)$/, '');
+    // Remove tags HTML, converte entidades HTML, remove quebras de linha e espaços extras
+    return text
+        .replace(/&lt;[^&gt;]+&gt;/g, '') // Remove todas as tags HTML
+        .replace(/&amp;nbsp;/g, ' ') // Converte &amp;nbsp; em espaço
+        .replace(/&amp;amp;/g, '&amp;')  // Converte &amp;amp; em &amp;
+        .replace(/&amp;lt;/g, '&lt;')   // Converte &amp;lt; em &lt;
+        .replace(/&amp;gt;/g, '&gt;')   // Converte &amp;gt; em &gt;
+        .replace(/[\r\n]+/g, ' ') // Substitui quebras de linha por espaço
+        .replace(/\s+/g, ' ')    // Substitui múltiplos espaços por um único espaço
+        .trim();                 // Remove espaços no início e fim
 }
 
 var http_normalized = normalize(http_data);
@@ -9436,7 +7844,16 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 var update = local('update');
 
 function normalize(text) {
-  return text.replace(/(\r\n|\n|\r)$/, '');
+    // Remove tags HTML, converte entidades HTML, remove quebras de linha e espaços extras
+    return text
+        .replace(/&lt;[^&gt;]+&gt;/g, '') // Remove todas as tags HTML
+        .replace(/&amp;nbsp;/g, ' ') // Converte &amp;nbsp; em espaço
+        .replace(/&amp;amp;/g, '&amp;')  // Converte &amp;amp; em &amp;
+        .replace(/&amp;lt;/g, '&lt;')   // Converte &amp;lt; em &lt;
+        .replace(/&amp;gt;/g, '&gt;')   // Converte &amp;gt; em &gt;
+        .replace(/[\r\n]+/g, ' ') // Substitui quebras de linha por espaço
+        .replace(/\s+/g, ' ')    // Substitui múltiplos espaços por um único espaço
+        .trim();                 // Remove espaços no início e fim
 }
 
 var http_normalized = normalize(http_data);
@@ -9697,7 +8114,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>875</pvid>
+			<pvid>1129</pvid>
 			<pvit>t</pvit>
 			<pvn>%update_url</pvn>
 			<pvt>t</pvt>
@@ -9711,7 +8128,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>875</pvid>
+			<pvid>1129</pvid>
 			<pvit>t</pvit>
 			<pvn>%update</pvn>
 			<pvt>t</pvt>
@@ -9731,6 +8148,11 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
             &lt;b&gt;*Melhorias de sistema*&lt;/b&gt;&lt;br&gt;
             Ao realizar a instalação o aparelho se manterá ativo até a finalização, adicionado também tempo de espera para tempo de escrita dos arquivos necessários para instalação &lt;br&gt;
             04 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+             &lt;b&gt;*Melhorias de sistema*&lt;/b&gt;&lt;br&gt;
+            Melhoria nas conexões das portas ao fazer a reconexão de forma automática identificará todas as portas e irá executá-las separadamente as suas instâncias &lt;br&gt;
+            05 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
         &lt;/p&gt;
 </pvv>
 			<strout>true</strout>
@@ -9742,7 +8164,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>875</pvid>
+			<pvid>1129</pvid>
 			<pvit>t</pvit>
 			<pvn>%template_url</pvn>
 			<pvt>t</pvt>
@@ -9756,7 +8178,7 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<pvci>true</pvci>
 			<pvd></pvd>
 			<pvdn></pvdn>
-			<pvid>875</pvid>
+			<pvid>1129</pvid>
 			<pvit>t</pvit>
 			<pvn>%version_url</pvn>
 			<pvt>t</pvt>
@@ -9764,20 +8186,20 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task876">
+	<Task sr="task1130">
 		<cdate>1749963928279</cdate>
 		<edate>1749963928279</edate>
-		<id>876</id>
+		<id>1130</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task877">
+	<Task sr="task1131">
 		<cdate>1750622181101</cdate>
 		<edate>1751647404883</edate>
-		<id>877</id>
+		<id>1131</id>
 		<nme>003-DESCONECTAR [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -9828,29 +8250,29 @@ O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/user-allowed.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task878">
+	<Task sr="task1132">
 		<cdate>1751575645994</cdate>
 		<edate>1751575645994</edate>
-		<id>878</id>
+		<id>1132</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">005-DESCONECTAR-USUARIO [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task881">
+	<Task sr="task1133">
 		<cdate>1751575683414</cdate>
 		<edate>1751575683414</edate>
-		<id>881</id>
+		<id>1133</id>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">INFORMACOES_GRUPOS [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task882">
+	<Task sr="task1134">
 		<cdate>1750425870161</cdate>
-		<edate>1751726624074</edate>
-		<id>882</id>
+		<edate>1751728698522</edate>
+		<id>1134</id>
 		<nme>009-RECONECTAR [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10087,10 +8509,10 @@ true</Str>
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task883">
+	<Task sr="task1135">
 		<cdate>1750774903586</cdate>
 		<edate>1751683313997</edate>
-		<id>883</id>
+		<id>1135</id>
 		<nme>004 CAPTURAR NÚMERO E JID [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -10206,10 +8628,10 @@ setLocal("name", nome);</Str>
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/user-allowed.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task884">
+	<Task sr="task1136">
 		<cdate>1750801605699</cdate>
 		<edate>1751556037349</edate>
-		<id>884</id>
+		<id>1136</id>
 		<nme>010-CHECAR-VARIAVEIS [ zap-replay-api ] v(1.0)</nme>
 		<rty>2</rty>
 		<Action sr="act0" ve="7">
@@ -15213,10 +13635,10 @@ if (missingVariables.length &gt; 0) {
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task885">
+	<Task sr="task1137">
 		<cdate>1749673972765</cdate>
 		<edate>1751647600556</edate>
-		<id>885</id>
+		<id>1137</id>
 		<nme>007-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</nme>
 		<pri>6</pri>
 		<rty>2</rty>
@@ -15513,10 +13935,10 @@ setLocal('json_valid', is_valid.toString());</Str>
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task886">
+	<Task sr="task1138">
 		<cdate>1751310483241</cdate>
 		<edate>1751660677962</edate>
-		<id>886</id>
+		<id>1138</id>
 		<nme>002-BAIXAR-TAREFAS-ENVIO [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -16190,10 +14612,10 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 			<strout>true</strout>
 		</ProfileVariable>
 	</Task>
-	<Task sr="task887">
+	<Task sr="task1139">
 		<cdate>1751567176596</cdate>
 		<edate>1751567176596</edate>
-		<id>887</id>
+		<id>1139</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -16201,10 +14623,20 @@ Selecione uma das portas para baixar as tarefas de envio</Str>
 			<Str sr="arg0" ve="3">006-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
 		</Action>
 	</Task>
-	<Task sr="task888">
+	<Task sr="task1140">
+		<cdate>1749763769927</cdate>
+		<edate>1749763769927</edate>
+		<id>1140</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+	</Task>
+	<Task sr="task1141">
 		<cdate>1748146743111</cdate>
 		<edate>1751719001100</edate>
-		<id>888</id>
+		<id>1141</id>
 		<nme>001-INSTALACAO [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -16694,10 +15126,10 @@ fi</Str>
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/user-allowed.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task889">
+	<Task sr="task1142">
 		<cdate>1749667525619</cdate>
-		<edate>1751655151921</edate>
-		<id>889</id>
+		<edate>1751728492309</edate>
+		<id>1142</id>
 		<nme>006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</nme>
 		<pri>100</pri>
 		<rty>2</rty>
@@ -19056,10 +17488,418 @@ document.querySelector(".background-btn").addEventListener("click", showBackgrou
 			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
 		</Img>
 	</Task>
-	<Task sr="task890">
+	<Task sr="task1143">
+		<cdate>1751354730604</cdate>
+		<edate>1751728323761</edate>
+		<id>1143</id>
+		<nme>012-MENSAGENS-RECEBIDAS [ zap-replay-api ] v(1.0)</nme>
+		<pri>6</pri>
+		<rty>2</rty>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%caller1</lhs>
+					<op>3</op>
+					<rhs>ui</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>342</code>
+			<Int sr="arg0" val="5"/>
+			<Str sr="arg1" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
+			<Str sr="arg2" ve="3">%in_exist</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var jsonString = local("http_request_body");
+
+function converterUnicode(str) {
+    if (!str) return "";
+    return str.replace(/\\u([\dA-Fa-f]{4})/g, function(match, codigoHex) {
+        return String.fromCharCode(parseInt(codigoHex, 16));
+    });
+}
+
+function extractPhoneNumber(vcard) {
+    if (!vcard) return "";
+    const match = vcard.match(/waid=(\d+):\+([\d\s-]+)/) || vcard.match(/TEL[^:]*:(\+[\d\s-]+)/);
+    return match ? match[1].replace(/[\s-]/g, "") : "";
+}
+
+// Função para mapear mime_type para extensão de arquivo
+function getFileExtension(mime_type) {
+    if (!mime_type) return "";
+    const mimeMap = {
+        "image/jpeg": ".jpeg",
+        "image/png": ".png",
+        "image/gif": ".gif",
+        "video/mp4": ".mp4",
+        "video/3gpp": ".3gp",
+        "audio/mpeg": ".mp3",
+        "audio/ogg": ".ogg",
+        "audio/aac": ".aac",
+        "document/pdf": ".pdf"
+    };
+    return mimeMap[mime_type] || "";
+}
+
+try {
+    var json = JSON.parse(jsonString);
+    
+    var port = json.Port || "";
+    var sender_number = json.SenderNumber ? json.SenderNumber.split("@")[0] : "";
+    var message_id = json.message?.ID || "";
+    var message = json.message?.TextMessage || "";
+    var is_group = String(json.IsGroup || "false");
+    var my_number = String(json.MyNumber || "false");
+    
+    var pushname = converterUnicode(json.PushName) || "";
+    var group_name = (is_group === "true") ? converterUnicode(json.GroupName) || "" : "";
+    
+    var type = json.Type || "";
+    var message_origin = json.message?.MessageOrigin || "";
+    var replied_id = json.message?.RepliedId || "";
+    
+    var jid = "";
+    if (json.SenderNumber &amp;&amp; json.SenderNumber.includes("g.us")) {
+        var match = json.SenderNumber.match(/(\d+)@g\.us/);
+        if (match &amp;&amp; match[1]) {
+            jid = match[1];
+        }
+    }
+
+    var timestamp = "";
+    if (json.timestamp) {
+        var data = new Date(json.timestamp);
+        timestamp = 
+            ("0" + data.getDate()).slice(-2) + "/" +
+            ("0" + (data.getMonth() + 1)).slice(-2) + "/" +
+            data.getFullYear() + " " +
+            ("0" + data.getHours()).slice(-2) + "." +
+            ("0" + data.getMinutes()).slice(-2) + "." +
+            ("0" + data.getSeconds()).slice(-2);
+    }
+    
+    var call_id = json.Call_Id || "";
+    var call_status = json.Status_Call || "";
+    
+    // Processar informações de contato
+    var vcard = "";
+    if (type === "contact" &amp;&amp; json.contact &amp;&amp; typeof json.contact === "object") {
+        if (Array.isArray(json.contact)) {
+            vcard = json.contact.map(contact =&gt; ({
+                name: contact.displayName || "",
+                number: extractPhoneNumber(contact.vcard)
+            }));
+        } else if (json.contact.displayName || json.contact.vcard) {
+            vcard = {
+                name: json.contact.displayName || "",
+                number: extractPhoneNumber(json.contact.vcard)
+            };
+        }
+    }
+    
+    // Processar informações de link
+    var link_title = json.message?.TitleLink || "";
+    var link_description = json.message?.LinkDescription || "";
+    
+    // Processar link do Google Maps para localização
+    var link_google_maps = "";
+    if ((type === "live_location_message" || type === "location_message") &amp;&amp; json.live_location) {
+        var latitude = json.live_location.degreesLatitude || 0;
+        var longitude = json.live_location.degreesLongitude || 0;
+        link_google_maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
+    } else if ((type === "live_location_message" || type === "location_message") &amp;&amp; json.location) {
+        var latitude = json.location.degreesLatitude || 0;
+        var longitude = json.location.degreesLongitude || 0;
+        link_google_maps = `https://www.google.com/maps?q=${latitude},${longitude}`;
+    }
+    
+    // Processar extensão do arquivo e caption
+    var file_extension = "";
+    var caption = "";
+    if (type === "image_message" &amp;&amp; json.image) {
+        file_extension = getFileExtension(json.image.mime_type);
+        caption = json.image.caption || "";
+    } else if (type === "video_message" &amp;&amp; json.video) {
+        file_extension = getFileExtension(json.video.mime_type);
+        caption = json.video.caption || "";
+    } else if (type === "video_snapshot_message" &amp;&amp; json.video) { // Novo caso adicionado
+        file_extension = getFileExtension(json.video.mime_type);
+        caption = json.video.caption || "";
+    } else if (type === "audio_message" &amp;&amp; json.audio) {
+        file_extension = getFileExtension(json.audio.mime_type);
+        caption = json.audio.caption || "";
+    } else if (type === "document_message" &amp;&amp; json.document) {
+        file_extension = getFileExtension(json.document.mime_type);
+        caption = json.document.caption || "";
+    }
+    
+    // Criar objeto com todas as variáveis na sequência especificada
+    var output = {
+        port: port,
+        type: type,
+        sender_number: sender_number,
+        pushname: pushname,
+        group_name: group_name,
+        jid: jid,
+        is_group: is_group,
+        message_id: message_id,
+        message: message,
+        my_number: my_number,
+        message_origin: message_origin,
+        replied_id: replied_id,
+        call_id: call_id,
+        call_status: call_status,
+        timestamp: timestamp,
+        vcard: vcard,
+        link_title: link_title,
+        link_description: link_description,
+        link_google_maps: link_google_maps,
+        file_extension: file_extension,
+        caption: caption
+    };
+    
+    // Converter para JSON e salvar na variável de saída
+    setLocal("output_json", JSON.stringify(output));
+    
+    // SetLocal na sequência especificada
+    setLocal("port", port);
+    setLocal("type", type);
+    setLocal("sender_number", sender_number);
+    setLocal("pushname", pushname);
+    setLocal("group_name", group_name);
+    setLocal("jid", jid);
+    setLocal("is_group", is_group);
+    setLocal("message_id", message_id);
+    setLocal("message", message);
+    setLocal("my_number", my_number);
+    setLocal("message_origin", message_origin);
+    setLocal("replied_id", replied_id);
+    setLocal("call_id", call_id);
+    setLocal("call_status", call_status);
+    setLocal("timestamp", timestamp);
+    setLocal("vcard", JSON.stringify(vcard || ""));
+    setLocal("link_title", link_title);
+    setLocal("link_description", link_description);
+    setLocal("link_google_maps", link_google_maps);
+    setLocal("file_extension", file_extension);
+    setLocal("caption", caption);
+
+} catch (e) {
+    // Criar objeto com valores vazios na sequência especificada
+    var output = {
+        port: "",
+        type: "",
+        sender_number: "",
+        pushname: "",
+        group_name: "",
+        Diagnostics: {
+            Error: e.message
+        },
+        jid: "",
+        is_group: "",
+        message_id: "",
+        message: "",
+        my_number: "",
+        message_origin: "",
+        replied_id: "",
+        call_id: "",
+        call_status: "",
+        timestamp: "",
+        vcard: "",
+        link_title: "",
+        link_description: "",
+        link_google_maps: "",
+        file_extension: "",
+        caption: ""
+    };
+    
+    // Converter para JSON e salvar na variável de saída
+    setLocal("output_json", JSON.stringify(output));
+    
+    // SetLocal na sequência especificada
+    setLocal("port", "");
+    setLocal("type", "");
+    setLocal("sender_number", "");
+    setLocal("pushname", "");
+    setLocal("group_name", "");
+    setLocal("jid", "");
+    setLocal("is_group", "");
+    setLocal("message_id", "");
+    setLocal("message", "");
+    setLocal("my_number", "");
+    setLocal("message_origin", "");
+    setLocal("replied_id", "");
+    setLocal("call_id", "");
+    setLocal("call_status", "");
+    setLocal("timestamp", "");
+    setLocal("vcard", "");
+    setLocal("link_title", "");
+    setLocal("link_description", "");
+    setLocal("link_google_maps", "");
+    setLocal("file_extension", "");
+    setLocal("file_caption", "");
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%output_json</Str>
+			<Str sr="arg1" ve="3">%output_json</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var port = local('port');
+var users = local('users');
+
+function findModoOp(port, users) {
+  try {
+    const parsedUsers = JSON.parse(users);
+    if (!Array.isArray(parsedUsers)) return '';
+    
+    const user = parsedUsers.find(user =&gt; user.port === port);
+    return user ? user.modo_op : '';
+  } catch (e) {
+    return ''; // Retorna vazio se o JSON for inválido
+  }
+}
+
+var modo_op = findModoOp(port, users);
+
+setLocal('modo_op', modo_op);</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">MENSAGENS-RECEBIDAS [ zap-replay-api ]</Str>
+			<Int sr="arg1">
+				<var>%priority+30</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%http_request_body/%output_json/%port/%type/%sender_number/%pushname/%group_name/%jid/%is_group/%message_id/%message/%my_number/%message_origin/%replied_id/%call_id/%call_status/%timestamp/%vcard/%link_title/%link_description/%link_google_maps/%file_extension/%file_caption</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%modo_op</lhs>
+					<op>0</op>
+					<rhs>send and receive</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%type</lhs>
+					<op>2</op>
+					<rhs>text_message/image_message/video_message/video_snapshot_message/voice_message/audio_message/contact_message/document_message/voice_message/poll_message/poll_message/sticker_message</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>417</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
+			<Str sr="arg1" ve="3">%users_connecteds</Str>
+			<Int sr="arg2" val="1"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%in_exist</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var users_connecteds = local('users_connecteds');
+
+function isValidJson(jsonString) {
+  try {
+    const parsed = JSON.parse(jsonString);
+    return Array.isArray(parsed); // Verifica se é um array
+  } catch (e) {
+    return false; // Retorna false se o JSON for inválido
+  }
+}
+
+var is_valid = isValidJson(users_connecteds);
+
+setLocal('json_valid', is_valid.toString());</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<coll>false</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%json_valid</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%users</Str>
+			<Str sr="arg1" ve="3">%users_connecteds</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task1144">
 		<cdate>1749678624271</cdate>
 		<edate>1749678624271</edate>
-		<id>890</id>
+		<id>1144</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
@@ -19250,6 +18090,1227 @@ setLocal('error', '');</Str>
 003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
 			<Str sr="arg0" ve="3">%margin</Str>
 			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task1145">
+		<cdate>1749757392787</cdate>
+		<edate>1751660633671</edate>
+		<id>1145</id>
+		<nme>008-( SISTEMA )-INSTALACOES-GERAIS [ zap-replay-api ] v(1.0)</nme>
+		<pri>100</pri>
+		<rty>2</rty>
+		<stayawake>true</stayawake>
+		<Action sr="act0" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>iniciar-instalacao</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>417</code>
+			<label>&lt;b&gt;&lt;font color=cyan&gt;
+path_progresso</label>
+			<Str sr="arg0" ve="3">%path_progresso</Str>
+			<Str sr="arg1" ve="3">%logs_progresso</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act100" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">003-RECEBER_MENSAGENS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act101" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">002-RECONECTAR [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act102" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">004- CENTRAL-DE-ATUALIZACOES [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act103" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">001-BAIXAR-ICONES [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act104" ve="7">
+			<code>129</code>
+			<Str sr="arg0" ve="3">var usersData = JSON.parse(users);
+
+if (Array.isArray(usersData) &amp;&amp; usersData.length &gt; 0) {
+    var lastUser = usersData[usersData.length - 1];
+    var formattedJson = JSON.stringify(lastUser, null, 2);
+    setLocal('user_connected', formattedJson);
+}</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act105" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act106" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">004-CONFIRMAR-CONEXAO [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act107" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act108" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act109" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%logs_progresso</Str>
+			<Str sr="arg1" ve="3">%logs_progresso</Str>
+			<Str sr="arg2" ve="3">
+</Str>
+		</Action>
+		<Action sr="act110" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%par1</lhs>
+					<op>2</op>
+					<rhs>desconectar</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act111" ve="7">
+			<code>354</code>
+			<Str sr="arg0" ve="3">%ports</Str>
+			<Str sr="arg1" ve="3">%ports</Str>
+			<Str sr="arg2" ve="3">,</Str>
+		</Action>
+		<Action sr="act112" ve="7">
+			<code>369</code>
+			<Str sr="arg0" ve="3">%ports</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+		<Action sr="act113" ve="7">
+			<code>39</code>
+			<Str sr="arg0" ve="3">%search</Str>
+			<Str sr="arg1" ve="3">%ports()</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act114" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:%search/app/logout</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act115" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act116" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act117" ve="7">
+			<code>547</code>
+			<label>adiciona * para não exibir os botões</label>
+			<Str sr="arg0" ve="3">%buttons</Str>
+			<Str sr="arg1" ve="3">*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act118" ve="7">
+			<code>547</code>
+			<label>margem da cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act119" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">&lt;p&gt;&lt;strong&gt;A conexão do usuário &lt;span style="color:#FFD700;"&gt;%search&lt;/span&gt; com o banco de dados foi finalizada com sucesso.&lt;/strong&gt;&lt;/p&gt;</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">ZapReplyApi.</Str>
+			<Str sr="arg1" ve="3">%logs_progresso(&lt;)</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Str sr="arg12" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="5"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%destroy_scene</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act120" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act121" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act122" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="3"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act123" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act124" ve="7">
+			<code>40</code>
+		</Action>
+		<Action sr="act125" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<bool0>And</bool0>
+				<Condition sr="c0" ve="3">
+					<lhs>%destroy_scene</lhs>
+					<op>2</op>
+					<rhs>true</rhs>
+				</Condition>
+				<Condition sr="c1" ve="3">
+					<lhs>%no_rept</lhs>
+					<op>13</op>
+					<rhs></rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>547</code>
+			<label>adiciona * para não exibir os botões</label>
+			<Str sr="arg0" ve="3">%buttons</Str>
+			<Str sr="arg1" ve="3">*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>547</code>
+			<label>margem da cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">"A instalação do programa ZapReplyApi continuará sendo executada em segundo plano. Você pode utilizar seu dispositivo normalmente enquanto o processo é concluído automaticamente."</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>523</code>
+			<Str sr="arg0" ve="3">ZapReplyApi</Str>
+			<Str sr="arg1" ve="3">"A instalação do programa ZapReplyApi continuará sendo executada em segundo plano. Você pode utilizar seu dispositivo normalmente."</Str>
+			<Str sr="arg10" ve="3"/>
+			<Str sr="arg11" ve="3"/>
+			<Str sr="arg12" ve="3"/>
+			<Img sr="arg2" ve="2">
+				<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/icon-logo.png</fle>
+			</Img>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="5"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<label>essa variável ela vai ser definida para que as informações dentro dessa condição não seja repetida</label>
+			<Str sr="arg0" ve="3">%no_rept</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act24" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%destroy_scene</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act25" ve="7">
+			<code>53</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">Barra De Progresso</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act26" ve="7">
+			<code>51</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">Termux-inf</Str>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">%logs_instalacao</Str>
+			<Str sr="arg4" ve="3"/>
+		</Action>
+		<Action sr="act27" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act28" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%logs_progresso(&lt;)</lhs>
+					<op>4</op>
+					<rhs>Progresso: 100.00%</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act29" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">fim da instalacao</Str>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">script-instalacao</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Str sr="arg7" ve="3">%json_conect</Str>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act30" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act31" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act32" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">path_arq</Str>
+		</Action>
+		<Action sr="act33" ve="7">
+			<code>300</code>
+			<label>fim da instalacao</label>
+		</Action>
+		<Action sr="act34" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%destroy_scene</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act35" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">Termux-inf</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>1500</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act36" ve="7">
+			<code>65</code>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3">
+				<var>1500</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act37" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%destroy_scene</lhs>
+					<op>2</op>
+					<rhs>false</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act39" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">006- SCRIPTS-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1">
+				<var>%priority+10</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3">instalacao</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act40" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">ZapReplyApi.</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act41" ve="7">
+			<code>779</code>
+			<Str sr="arg0" ve="3">ZapReplyApi</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act42" ve="7">
+			<code>300</code>
+			<label>&lt;b&gt;&lt;font color=cyan&gt;&lt;big&gt;
+a partir daqui vai iniciar o processo de conectividade do WhatsApp web</label>
+		</Action>
+		<Action sr="act43" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act44" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act45" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">&lt;br&gt;
+AGUARDE CONEXÃO EM ANDAMENTO</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,400</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3">TENTANDO CONECTAR AO WHATSAPP WEB</Str>
+			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FF003AF6</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">15000</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act46" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:%json_conect.port/app/login-with-code?phone=%json_conect.phone</Str>
+			<Str sr="arg3" ve="3">Accept: application/json, text/plain, */*</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act47" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%code_pairing</Str>
+			<Str sr="arg1" ve="3">%http_data.pair_code</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act48" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act49" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act50" ve="7">
+			<code>547</code>
+			<label>adiciona * para não exibir os botões</label>
+			<Str sr="arg0" ve="3">%buttons</Str>
+			<Str sr="arg1" ve="3">*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act51" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act52" ve="7">
+			<code>547</code>
+			<label>margem da cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act53" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">Não foi possível conectar no WhatsApp web por favor reinicie o celular novamente</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act54" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act55" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="7"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act56" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act57" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act58" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act59" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%code_pairing</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg2" ve="3"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">002-CENA-INSTALACAO [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="10"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act60" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act61" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act62" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3"> </Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3">top,0,4000</Str>
+			<Int sr="arg14" val="1"/>
+			<Str sr="arg15" ve="3">10</Str>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png</Str>
+			<Str sr="arg5" ve="3">40</Str>
+			<Str sr="arg6" ve="3">#FF003AF6</Str>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3">20</Str>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act63" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">60</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act64" ve="7">
+			<code>300</code>
+			<label>verificação de conexão do usuário</label>
+		</Action>
+		<Action sr="act65" ve="7">
+			<code>339</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_headers()
+Cabeçalhos de Resposta
+Os Cabeçalhos HTTP que o servidor enviou na resposta. Cada cabeçalho está no formato 'chave:valor'&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_cookies
+Cookies
+Os cookies que o servidor enviou na resposta no formato Cookie:VALOR_COOKIE. Você pode usar isso diretamente no campo 'Cabeçalhos' da ação Requisição HTTP&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_response_code
+Código de Resposta
+O Código HTTP que o servidor respondeu&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_data
+Dado
+Dados que o servidor respondeu da requisição HTTP.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_file_output
+Saída do Arquivo
+Sempre conterá o caminho completo do arquivo, mesmo se você especificou um diretório como Arquivo para salvar.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+Tamanho da Resposta
+O tamanho da resposta em bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="1"/>
+			<Str sr="arg2" ve="3">http://localhost:%json_conect.port/user/info?phone=%json_conect.phone@s.whatsapp.net</Str>
+			<Str sr="arg3" ve="3">Accept: application/json, text/plain, */*
+content-type: application/json</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="30"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act66" ve="7">
+			<code>328</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%kb_text
+Texto
+Texto presente na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%kb_text_before_cursor
+Texto Antes do Cursor
+Texto antes do cursor na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%kb_text_after_cursor
+Texto Após o Cursor
+Texto após o cursor na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%kb_text_selected
+Texto Selecionado
+Texto selecionado na entrada atual, se houver&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">write(%code_pairing)</Str>
+			<Int sr="arg2" val="50"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act67" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Str sr="arg1" ve="3">%time</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act68" ve="7">
+			<code>890</code>
+			<Str sr="arg0" ve="3">%time</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act69" ve="7">
+			<code>547</code>
+			<label>adiciona * para não exibir os botões</label>
+			<Str sr="arg0" ve="3">%buttons</Str>
+			<Str sr="arg1" ve="3">*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<label>path_arq</label>
+			<Str sr="arg0" ve="3">%path_arq</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/install.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act70" ve="7">
+			<code>547</code>
+			<label>margem da cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act71" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">Código Válido por um minuto
+&lt;br&gt;
+&lt;span style="color: #FFFF00;"&gt; Código de pareamento
+&lt;br&gt;
+➫ %code_pairing
+&lt;br&gt;
+Tempo restante %time</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act72" ve="7">
+			<code>53</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Str sr="arg1" ve="3">Exibir Informações Gerais</Str>
+			<Int sr="arg2" val="11"/>
+			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act73" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act74" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%time</lhs>
+					<op>2</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act75" ve="7">
+			<code>61</code>
+			<Int sr="arg0" val="1000"/>
+		</Action>
+		<Action sr="act76" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act77" ve="7">
+			<code>547</code>
+			<label>adiciona * para não exibir os botões</label>
+			<Str sr="arg0" ve="3">%buttons</Str>
+			<Str sr="arg1" ve="3">*</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act78" ve="7">
+			<code>547</code>
+			<label>margem da cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%margin</Str>
+			<Str sr="arg1" ve="3">center</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act79" ve="7">
+			<code>547</code>
+			<label>cor da informação do texto na cena
+WAITING-FOR-SETTINGS v(1.0)</label>
+			<Str sr="arg0" ve="3">%color_text</Str>
+			<Str sr="arg1" ve="3">#FF0000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">%path_arq</Str>
+			<Str sr="arg1" ve="3">%logs_instalacao</Str>
+			<Int sr="arg2" val="1"/>
+		</Action>
+		<Action sr="act80" ve="7">
+			<code>547</code>
+			<label>informação que irá ser exibido na cena
+003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</label>
+			<Str sr="arg0" ve="3">%text</Str>
+			<Str sr="arg1" ve="3">TEMPO EXCEDIDO TENTE NOVAMENTE !!!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act81" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act82" ve="7">
+			<code>30</code>
+			<Int sr="arg0" val="0"/>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act83" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act84" ve="7">
+			<code>137</code>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+		</Action>
+		<Action sr="act85" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act86" ve="7">
+			<code>37</code>
+			<coll>true</coll>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>2</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act87" ve="7">
+			<code>245</code>
+		</Action>
+		<Action sr="act88" ve="7">
+			<code>245</code>
+		</Action>
+		<Action sr="act89" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<label>&lt;b&gt;&lt;font color=cyan&gt;
+path_progresso</label>
+			<Str sr="arg0" ve="3">%path_progresso</Str>
+			<Str sr="arg1" ve="3">/storage/emulated/0/Tasker/termux/zap-replay-api/instalacao/logs/progress.txt</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act90" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act91" ve="7">
+			<code>129</code>
+			<label>identifica o usuário que irá ser conectar e adicionar dentro da variável users</label>
+			<Str sr="arg0" ve="3">var tempUsers = local('users');
+var newData = JSON.parse(local('json_conect'));
+delete newData.reset;
+
+var usersList = [];
+if (tempUsers) {
+    usersList = JSON.parse(tempUsers);
+    if (!Array.isArray(usersList)) usersList = [usersList];
+    
+    for (var i = 0; i &lt; usersList.length; i++) {
+        if (usersList[i].phone === newData.phone) {
+            setLocal('error','numero ja existe');
+            exit();
+        }
+    }
+}
+
+usersList.push(newData);
+  
+users = JSON.stringify(usersList, null, 2);
+setLocal('error', '');</Str>
+			<Str sr="arg1" ve="3"/>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="45"/>
+		</Action>
+		<Action sr="act92" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/instalacao/users_connecteds.txt</Str>
+			<Str sr="arg1" ve="3">%users</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+		<Action sr="act93" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">003-EXIBIR-INFORMACOES-GERAIS [ zap-replay-api ] v(1.0)</Str>
+		</Action>
+		<Action sr="act94" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">usuário conectado</Str>
+		</Action>
+		<Action sr="act95" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act96" ve="7">
+			<code>135</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">verificação de conexão do usuário</Str>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>3</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act97" ve="7">
+			<code>300</code>
+			<label>usuário conectado</label>
+		</Action>
+		<Action sr="act98" ve="7">
+			<code>303</code>
+			<Int sr="arg0" val="255"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act99" ve="7">
+			<code>445</code>
+			<Str sr="arg0" ve="3">Tasker/termux/zap-replay-api/icones/audio_0079f206b2.mp3</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="4"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<fle>/storage/emulated/0/Tasker/termux/zap-replay-api/icones/system.png</fle>
+		</Img>
+	</Task>
+	<Task sr="task1150">
+		<cdate>1751728333400</cdate>
+		<edate>1751728346428</edate>
+		<id>1150</id>
+		<nme>Tyjn</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%nkjk</Str>
+			<Str sr="arg1" ve="3">        &lt;p class="changelog-text"&gt;
+            &lt;b&gt;*Melhoria de design nas cenas*&lt;/b&gt;&lt;br&gt;
+            as cores de iracenos foram alteradas para ter uma melhor visualização .&lt;br&gt;
+            01 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+            &lt;b&gt;*Melhoria de responsividade nas cenas*&lt;/b&gt;&lt;br&gt;
+            Ajuste de responsabilidade para aparelhos diferentes para melhor visualização do usuário .&lt;br&gt;
+            04 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+            &lt;b&gt;*Modo de usuário*&lt;/b&gt;&lt;br&gt;
+            O sistema identifica o usuário se está em modo  send ou sende end receive, usuários cadastrados apenas no modo Sandy não receberás de notificações de mensagem recebidas, será usado apenas a função de envio, já usuários cadastrados no modo sender end receive irá conseguir enviar mensagens de arquivos quando receber as notificações &lt;br&gt;
+            04 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+            &lt;b&gt;*Melhorias de sistema*&lt;/b&gt;&lt;br&gt;
+            Ao realizar a instalação o aparelho se manterá ativo até a finalização, adicionado também tempo de espera para tempo de escrita dos arquivos necessários para instalação &lt;br&gt;
+            04 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+             &lt;b&gt;*Melhorias de sistema*&lt;/b&gt;&lt;br&gt;
+            Melhoria nas conexões das portas ao fazer a reconexão de forma automática identificará todas as portas e irá executá-las separadamente as suas instâncias &lt;br&gt;
+            05 de Julho de 2025&lt;br&gt;&lt;br&gt;
+
+        &lt;/p&gt;
+</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
