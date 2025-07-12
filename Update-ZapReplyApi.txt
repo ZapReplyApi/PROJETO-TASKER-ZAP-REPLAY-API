@@ -19,4 +19,8 @@
             Melhoria nas conexões das portas ao fazer a reconexão de forma automática identificará todas as portas e irá executá-las separadamente as suas instâncias <br>
             05 de Julho de 2025<br><br>
 
+            <b>*Melhorias de sistema*</b><br>
+            adicionado variáveis para melhor identificação de contatos e também adicionado para identificar os tipos de arquivos recebidos por exemplo.png.jpeg etc <br>
+            05 de Julho de 2025<br><br>
+
         </p>
