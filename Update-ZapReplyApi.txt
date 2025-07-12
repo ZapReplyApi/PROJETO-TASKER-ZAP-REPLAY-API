@@ -21,6 +21,6 @@
 
             <b>*Melhorias de sistema*</b><br>
             adicionado variáveis para melhor identificação de contatos e também adicionado para identificar os tipos de arquivos recebidos por exemplo.png.jpeg etc <br>
-            05 de Julho de 2025<br><br>
+            12 de Julho de 2025<br><br>
 
         </p>
